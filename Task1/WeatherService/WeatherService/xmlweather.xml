@@ -5,376 +5,28 @@
     <query>Beijing, China</query>
   </request>
   <current_condition>
-    <observation_time>07:30 AM</observation_time>
-    <temp_C>6</temp_C>
-    <temp_F>43</temp_F>
-    <weatherCode>143</weatherCode>
-    <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0006_mist.png]]></weatherIconUrl>
-    <weatherDesc><![CDATA[Haze]]></weatherDesc>
-    <windspeedMiles>4</windspeedMiles>
-    <windspeedKmph>7</windspeedKmph>
-    <winddirDegree>180</winddirDegree>
-    <winddir16Point>S</winddir16Point>
+    <observation_time>01:10 PM</observation_time>
+    <temp_C>2</temp_C>
+    <temp_F>36</temp_F>
+    <weatherCode>113</weatherCode>
+    <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
+    <weatherDesc><![CDATA[Clear]]></weatherDesc>
+    <windspeedMiles>12</windspeedMiles>
+    <windspeedKmph>19</windspeedKmph>
+    <winddirDegree>360</winddirDegree>
+    <winddir16Point>N</winddir16Point>
     <precipMM>0.0</precipMM>
     <precipInches>0.0</precipInches>
-    <humidity>52</humidity>
-    <visibility>4</visibility>
-    <visibilityMiles>2</visibilityMiles>
-    <pressure>1017</pressure>
+    <humidity>35</humidity>
+    <visibility>10</visibility>
+    <visibilityMiles>6</visibilityMiles>
+    <pressure>1021</pressure>
     <pressureInches>31</pressureInches>
     <cloudcover>0</cloudcover>
-    <FeelsLikeC>5</FeelsLikeC>
-    <FeelsLikeF>40</FeelsLikeF>
-    <uvIndex>2</uvIndex>
-  </current_condition>
-  <weather>
-    <date>2019-12-09</date>
-    <astronomy>
-      <sunrise>07:24 AM</sunrise>
-      <sunset>04:50 PM</sunset>
-      <moonrise>03:11 PM</moonrise>
-      <moonset>03:59 AM</moonset>
-      <moon_phase>Waxing Gibbous</moon_phase>
-      <moon_illumination>84</moon_illumination>
-    </astronomy>
-    <maxtempC>8</maxtempC>
-    <maxtempF>46</maxtempF>
-    <mintempC>0</mintempC>
-    <mintempF>33</mintempF>
-    <avgtempC>4</avgtempC>
-    <avgtempF>39</avgtempF>
-    <totalSnow_cm>0.0</totalSnow_cm>
-    <sunHour>8.7</sunHour>
+    <FeelsLikeC>-3</FeelsLikeC>
+    <FeelsLikeF>27</FeelsLikeF>
     <uvIndex>1</uvIndex>
-    <hourly>
-      <time>0</time>
-      <tempC>2</tempC>
-      <tempF>36</tempF>
-      <windspeedMiles>1</windspeedMiles>
-      <windspeedKmph>2</windspeedKmph>
-      <winddirDegree>28</winddirDegree>
-      <winddir16Point>NNE</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>42</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1022</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>11</cloudcover>
-      <HeatIndexC>2</HeatIndexC>
-      <HeatIndexF>36</HeatIndexF>
-      <DewPointC>-9</DewPointC>
-      <DewPointF>15</DewPointF>
-      <WindChillC>2</WindChillC>
-      <WindChillF>36</WindChillF>
-      <WindGustMiles>2</WindGustMiles>
-      <WindGustKmph>3</WindGustKmph>
-      <FeelsLikeC>2</FeelsLikeC>
-      <FeelsLikeF>36</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>80</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>33</chanceofovercast>
-      <chanceofsunshine>80</chanceofsunshine>
-      <chanceoffrost>5</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>300</time>
-      <tempC>1</tempC>
-      <tempF>33</tempF>
-      <windspeedMiles>2</windspeedMiles>
-      <windspeedKmph>3</windspeedKmph>
-      <winddirDegree>123</winddirDegree>
-      <winddir16Point>ESE</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>44</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1021</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>34</cloudcover>
-      <HeatIndexC>1</HeatIndexC>
-      <HeatIndexF>33</HeatIndexF>
-      <DewPointC>-10</DewPointC>
-      <DewPointF>14</DewPointF>
-      <WindChillC>1</WindChillC>
-      <WindChillF>33</WindChillF>
-      <WindGustMiles>2</WindGustMiles>
-      <WindGustKmph>4</WindGustKmph>
-      <FeelsLikeC>1</FeelsLikeC>
-      <FeelsLikeF>33</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>85</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>39</chanceofovercast>
-      <chanceofsunshine>83</chanceofsunshine>
-      <chanceoffrost>15</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>600</time>
-      <tempC>1</tempC>
-      <tempF>33</tempF>
-      <windspeedMiles>1</windspeedMiles>
-      <windspeedKmph>2</windspeedKmph>
-      <winddirDegree>334</winddirDegree>
-      <winddir16Point>NNW</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>47</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1021</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>35</cloudcover>
-      <HeatIndexC>1</HeatIndexC>
-      <HeatIndexF>33</HeatIndexF>
-      <DewPointC>-9</DewPointC>
-      <DewPointF>15</DewPointF>
-      <WindChillC>1</WindChillC>
-      <WindChillF>33</WindChillF>
-      <WindGustMiles>2</WindGustMiles>
-      <WindGustKmph>3</WindGustKmph>
-      <FeelsLikeC>1</FeelsLikeC>
-      <FeelsLikeF>33</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>89</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>43</chanceofovercast>
-      <chanceofsunshine>80</chanceofsunshine>
-      <chanceoffrost>13</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>900</time>
-      <tempC>3</tempC>
-      <tempF>37</tempF>
-      <windspeedMiles>1</windspeedMiles>
-      <windspeedKmph>1</windspeedKmph>
-      <winddirDegree>271</winddirDegree>
-      <winddir16Point>W</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>45</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1021</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>8</cloudcover>
-      <HeatIndexC>3</HeatIndexC>
-      <HeatIndexF>37</HeatIndexF>
-      <DewPointC>-8</DewPointC>
-      <DewPointF>17</DewPointF>
-      <WindChillC>3</WindChillC>
-      <WindChillF>37</WindChillF>
-      <WindGustMiles>1</WindGustMiles>
-      <WindGustKmph>2</WindGustKmph>
-      <FeelsLikeC>3</FeelsLikeC>
-      <FeelsLikeF>37</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>83</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>47</chanceofovercast>
-      <chanceofsunshine>80</chanceofsunshine>
-      <chanceoffrost>7</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>1200</time>
-      <tempC>6</tempC>
-      <tempF>44</tempF>
-      <windspeedMiles>2</windspeedMiles>
-      <windspeedKmph>3</windspeedKmph>
-      <winddirDegree>189</winddirDegree>
-      <winddir16Point>S</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>36</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1020</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>6</cloudcover>
-      <HeatIndexC>6</HeatIndexC>
-      <HeatIndexF>44</HeatIndexF>
-      <DewPointC>-8</DewPointC>
-      <DewPointF>18</DewPointF>
-      <WindChillC>6</WindChillC>
-      <WindChillF>43</WindChillF>
-      <WindGustMiles>2</WindGustMiles>
-      <WindGustKmph>3</WindGustKmph>
-      <FeelsLikeC>6</FeelsLikeC>
-      <FeelsLikeF>43</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>84</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>46</chanceofovercast>
-      <chanceofsunshine>80</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>1500</time>
-      <tempC>8</tempC>
-      <tempF>46</tempF>
-      <windspeedMiles>3</windspeedMiles>
-      <windspeedKmph>4</windspeedKmph>
-      <winddirDegree>190</winddirDegree>
-      <winddir16Point>S</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>33</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1018</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>7</cloudcover>
-      <HeatIndexC>8</HeatIndexC>
-      <HeatIndexF>46</HeatIndexF>
-      <DewPointC>-7</DewPointC>
-      <DewPointF>19</DewPointF>
-      <WindChillC>7</WindChillC>
-      <WindChillF>45</WindChillF>
-      <WindGustMiles>3</WindGustMiles>
-      <WindGustKmph>5</WindGustKmph>
-      <FeelsLikeC>7</FeelsLikeC>
-      <FeelsLikeF>45</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>88</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>41</chanceofovercast>
-      <chanceofsunshine>84</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>1800</time>
-      <tempC>7</tempC>
-      <tempF>44</tempF>
-      <windspeedMiles>2</windspeedMiles>
-      <windspeedKmph>3</windspeedKmph>
-      <winddirDegree>247</winddirDegree>
-      <winddir16Point>WSW</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>38</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1019</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>6</cloudcover>
-      <HeatIndexC>7</HeatIndexC>
-      <HeatIndexF>44</HeatIndexF>
-      <DewPointC>-7</DewPointC>
-      <DewPointF>20</DewPointF>
-      <WindChillC>7</WindChillC>
-      <WindChillF>44</WindChillF>
-      <WindGustMiles>2</WindGustMiles>
-      <WindGustKmph>4</WindGustKmph>
-      <FeelsLikeC>7</FeelsLikeC>
-      <FeelsLikeF>44</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>85</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>41</chanceofovercast>
-      <chanceofsunshine>82</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>2100</time>
-      <tempC>5</tempC>
-      <tempF>41</tempF>
-      <windspeedMiles>1</windspeedMiles>
-      <windspeedKmph>2</windspeedKmph>
-      <winddirDegree>229</winddirDegree>
-      <winddir16Point>SW</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>43</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1019</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>12</cloudcover>
-      <HeatIndexC>5</HeatIndexC>
-      <HeatIndexF>41</HeatIndexF>
-      <DewPointC>-7</DewPointC>
-      <DewPointF>20</DewPointF>
-      <WindChillC>5</WindChillC>
-      <WindChillF>41</WindChillF>
-      <WindGustMiles>2</WindGustMiles>
-      <WindGustKmph>3</WindGustKmph>
-      <FeelsLikeC>5</FeelsLikeC>
-      <FeelsLikeF>41</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>87</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>43</chanceofovercast>
-      <chanceofsunshine>72</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-  </weather>
+  </current_condition>
   <weather>
     <date>2019-12-10</date>
     <astronomy>
@@ -387,7 +39,7 @@
     </astronomy>
     <maxtempC>8</maxtempC>
     <maxtempF>47</maxtempF>
-    <mintempC>1</mintempC>
+    <mintempC>2</mintempC>
     <mintempF>35</mintempF>
     <avgtempC>4</avgtempC>
     <avgtempF>40</avgtempF>
@@ -396,11 +48,11 @@
     <uvIndex>1</uvIndex>
     <hourly>
       <time>0</time>
-      <tempC>3</tempC>
+      <tempC>4</tempC>
       <tempF>38</tempF>
       <windspeedMiles>2</windspeedMiles>
       <windspeedKmph>3</windspeedKmph>
-      <winddirDegree>25</winddirDegree>
+      <winddirDegree>24</winddirDegree>
       <winddir16Point>NNE</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
@@ -412,11 +64,11 @@
       <visibilityMiles>6</visibilityMiles>
       <pressure>1018</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>17</cloudcover>
-      <HeatIndexC>3</HeatIndexC>
+      <cloudcover>12</cloudcover>
+      <HeatIndexC>4</HeatIndexC>
       <HeatIndexF>38</HeatIndexF>
       <DewPointC>-7</DewPointC>
-      <DewPointF>19</DewPointF>
+      <DewPointF>20</DewPointF>
       <WindChillC>3</WindChillC>
       <WindChillF>38</WindChillF>
       <WindGustMiles>3</WindGustMiles>
@@ -424,10 +76,10 @@
       <FeelsLikeC>3</FeelsLikeC>
       <FeelsLikeF>38</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>80</chanceofremdry>
+      <chanceofremdry>89</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>38</chanceofovercast>
-      <chanceofsunshine>76</chanceofsunshine>
+      <chanceofovercast>49</chanceofovercast>
+      <chanceofsunshine>86</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -439,16 +91,16 @@
       <time>300</time>
       <tempC>3</tempC>
       <tempF>37</tempF>
-      <windspeedMiles>3</windspeedMiles>
+      <windspeedMiles>2</windspeedMiles>
       <windspeedKmph>4</windspeedKmph>
-      <winddirDegree>24</winddirDegree>
-      <winddir16Point>NNE</winddir16Point>
+      <winddirDegree>38</winddirDegree>
+      <winddir16Point>NE</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>49</humidity>
+      <humidity>50</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
       <pressure>1017</pressure>
@@ -457,18 +109,18 @@
       <HeatIndexC>3</HeatIndexC>
       <HeatIndexF>37</HeatIndexF>
       <DewPointC>-7</DewPointC>
-      <DewPointF>19</DewPointF>
+      <DewPointF>20</DewPointF>
       <WindChillC>2</WindChillC>
-      <WindChillF>35</WindChillF>
-      <WindGustMiles>4</WindGustMiles>
-      <WindGustKmph>6</WindGustKmph>
+      <WindChillF>36</WindChillF>
+      <WindGustMiles>3</WindGustMiles>
+      <WindGustKmph>5</WindGustKmph>
       <FeelsLikeC>2</FeelsLikeC>
-      <FeelsLikeF>35</FeelsLikeF>
+      <FeelsLikeF>36</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>84</chanceofremdry>
+      <chanceofremdry>86</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>37</chanceofovercast>
-      <chanceofsunshine>82</chanceofsunshine>
+      <chanceofovercast>48</chanceofovercast>
+      <chanceofsunshine>83</chanceofsunshine>
       <chanceoffrost>3</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -482,7 +134,7 @@
       <tempF>35</tempF>
       <windspeedMiles>3</windspeedMiles>
       <windspeedKmph>5</windspeedKmph>
-      <winddirDegree>11</winddirDegree>
+      <winddirDegree>13</winddirDegree>
       <winddir16Point>NNE</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
@@ -498,18 +150,18 @@
       <HeatIndexC>2</HeatIndexC>
       <HeatIndexF>35</HeatIndexF>
       <DewPointC>-8</DewPointC>
-      <DewPointF>18</DewPointF>
-      <WindChillC>-0</WindChillC>
+      <DewPointF>19</DewPointF>
+      <WindChillC>0</WindChillC>
       <WindChillF>32</WindChillF>
-      <WindGustMiles>6</WindGustMiles>
-      <WindGustKmph>9</WindGustKmph>
-      <FeelsLikeC>-0</FeelsLikeC>
+      <WindGustMiles>5</WindGustMiles>
+      <WindGustKmph>8</WindGustKmph>
+      <FeelsLikeC>0</FeelsLikeC>
       <FeelsLikeF>32</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>91</chanceofremdry>
+      <chanceofremdry>84</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>42</chanceofovercast>
-      <chanceofsunshine>81</chanceofsunshine>
+      <chanceofovercast>43</chanceofovercast>
+      <chanceofsunshine>76</chanceofsunshine>
       <chanceoffrost>10</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -519,11 +171,11 @@
     </hourly>
     <hourly>
       <time>900</time>
-      <tempC>4</tempC>
+      <tempC>3</tempC>
       <tempF>38</tempF>
-      <windspeedMiles>4</windspeedMiles>
-      <windspeedKmph>7</windspeedKmph>
-      <winddirDegree>107</winddirDegree>
+      <windspeedMiles>5</windspeedMiles>
+      <windspeedKmph>8</windspeedKmph>
+      <winddirDegree>106</winddirDegree>
       <winddir16Point>ESE</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
@@ -535,8 +187,8 @@
       <visibilityMiles>6</visibilityMiles>
       <pressure>1018</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>7</cloudcover>
-      <HeatIndexC>4</HeatIndexC>
+      <cloudcover>8</cloudcover>
+      <HeatIndexC>3</HeatIndexC>
       <HeatIndexF>38</HeatIndexF>
       <DewPointC>-7</DewPointC>
       <DewPointF>19</DewPointF>
@@ -549,8 +201,8 @@
       <chanceofrain>0</chanceofrain>
       <chanceofremdry>89</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>35</chanceofovercast>
-      <chanceofsunshine>81</chanceofsunshine>
+      <chanceofovercast>34</chanceofovercast>
+      <chanceofsunshine>82</chanceofsunshine>
       <chanceoffrost>7</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -562,36 +214,36 @@
       <time>1200</time>
       <tempC>8</tempC>
       <tempF>46</tempF>
-      <windspeedMiles>9</windspeedMiles>
-      <windspeedKmph>14</windspeedKmph>
-      <winddirDegree>317</winddirDegree>
+      <windspeedMiles>10</windspeedMiles>
+      <windspeedKmph>16</windspeedKmph>
+      <winddirDegree>309</winddirDegree>
       <winddir16Point>NW</winddir16Point>
-      <weatherCode>113</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Sunny]]></weatherDesc>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>33</humidity>
+      <humidity>34</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1019</pressure>
+      <pressure>1018</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>2</cloudcover>
+      <cloudcover>3</cloudcover>
       <HeatIndexC>8</HeatIndexC>
       <HeatIndexF>46</HeatIndexF>
-      <DewPointC>-8</DewPointC>
-      <DewPointF>18</DewPointF>
+      <DewPointC>-7</DewPointC>
+      <DewPointF>19</DewPointF>
       <WindChillC>5</WindChillC>
-      <WindChillF>42</WindChillF>
-      <WindGustMiles>11</WindGustMiles>
-      <WindGustKmph>17</WindGustKmph>
+      <WindChillF>41</WindChillF>
+      <WindGustMiles>12</WindGustMiles>
+      <WindGustKmph>20</WindGustKmph>
       <FeelsLikeC>5</FeelsLikeC>
-      <FeelsLikeF>42</FeelsLikeF>
+      <FeelsLikeF>41</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>89</chanceofremdry>
+      <chanceofremdry>90</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>21</chanceofovercast>
-      <chanceofsunshine>81</chanceofsunshine>
+      <chanceofovercast>36</chanceofovercast>
+      <chanceofsunshine>79</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -603,36 +255,36 @@
       <time>1500</time>
       <tempC>7</tempC>
       <tempF>45</tempF>
-      <windspeedMiles>13</windspeedMiles>
-      <windspeedKmph>22</windspeedKmph>
-      <winddirDegree>309</winddirDegree>
+      <windspeedMiles>16</windspeedMiles>
+      <windspeedKmph>26</windspeedKmph>
+      <winddirDegree>307</winddirDegree>
       <winddir16Point>NW</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>29</humidity>
+      <humidity>31</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1019</pressure>
+      <pressure>1018</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>1</cloudcover>
       <HeatIndexC>7</HeatIndexC>
       <HeatIndexF>45</HeatIndexF>
-      <DewPointC>-10</DewPointC>
-      <DewPointF>15</DewPointF>
-      <WindChillC>4</WindChillC>
-      <WindChillF>39</WindChillF>
-      <WindGustMiles>18</WindGustMiles>
-      <WindGustKmph>29</WindGustKmph>
-      <FeelsLikeC>4</FeelsLikeC>
-      <FeelsLikeF>39</FeelsLikeF>
+      <DewPointC>-9</DewPointC>
+      <DewPointF>16</DewPointF>
+      <WindChillC>3</WindChillC>
+      <WindChillF>38</WindChillF>
+      <WindGustMiles>21</WindGustMiles>
+      <WindGustKmph>34</WindGustKmph>
+      <FeelsLikeC>3</FeelsLikeC>
+      <FeelsLikeF>38</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>87</chanceofremdry>
+      <chanceofremdry>89</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>15</chanceofovercast>
-      <chanceofsunshine>88</chanceofsunshine>
+      <chanceofovercast>40</chanceofovercast>
+      <chanceofsunshine>76</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -643,37 +295,37 @@
     <hourly>
       <time>1800</time>
       <tempC>5</tempC>
-      <tempF>42</tempF>
-      <windspeedMiles>11</windspeedMiles>
-      <windspeedKmph>18</windspeedKmph>
-      <winddirDegree>308</winddirDegree>
+      <tempF>41</tempF>
+      <windspeedMiles>13</windspeedMiles>
+      <windspeedKmph>22</windspeedKmph>
+      <winddirDegree>310</winddirDegree>
       <winddir16Point>NW</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>33</humidity>
+      <humidity>32</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1021</pressure>
+      <pressure>1020</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>6</cloudcover>
+      <cloudcover>5</cloudcover>
       <HeatIndexC>5</HeatIndexC>
-      <HeatIndexF>42</HeatIndexF>
+      <HeatIndexF>41</HeatIndexF>
       <DewPointC>-10</DewPointC>
-      <DewPointF>15</DewPointF>
-      <WindChillC>2</WindChillC>
-      <WindChillF>35</WindChillF>
-      <WindGustMiles>16</WindGustMiles>
-      <WindGustKmph>26</WindGustKmph>
-      <FeelsLikeC>2</FeelsLikeC>
-      <FeelsLikeF>35</FeelsLikeF>
+      <DewPointF>14</DewPointF>
+      <WindChillC>1</WindChillC>
+      <WindChillF>34</WindChillF>
+      <WindGustMiles>20</WindGustMiles>
+      <WindGustKmph>32</WindGustKmph>
+      <FeelsLikeC>1</FeelsLikeC>
+      <FeelsLikeF>34</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>80</chanceofremdry>
+      <chanceofremdry>84</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>40</chanceofovercast>
-      <chanceofsunshine>84</chanceofsunshine>
+      <chanceofovercast>44</chanceofovercast>
+      <chanceofsunshine>74</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -685,9 +337,9 @@
       <time>2100</time>
       <tempC>4</tempC>
       <tempF>39</tempF>
-      <windspeedMiles>10</windspeedMiles>
-      <windspeedKmph>17</windspeedKmph>
-      <winddirDegree>313</winddirDegree>
+      <windspeedMiles>11</windspeedMiles>
+      <windspeedKmph>18</windspeedKmph>
+      <winddirDegree>311</winddirDegree>
       <winddir16Point>NW</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
@@ -697,24 +349,24 @@
       <humidity>34</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1023</pressure>
+      <pressure>1022</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>11</cloudcover>
+      <cloudcover>9</cloudcover>
       <HeatIndexC>4</HeatIndexC>
       <HeatIndexF>39</HeatIndexF>
-      <DewPointC>-10</DewPointC>
+      <DewPointC>-11</DewPointC>
       <DewPointF>13</DewPointF>
-      <WindChillC>0</WindChillC>
+      <WindChillC>-0</WindChillC>
       <WindChillF>32</WindChillF>
-      <WindGustMiles>15</WindGustMiles>
-      <WindGustKmph>24</WindGustKmph>
-      <FeelsLikeC>0</FeelsLikeC>
+      <WindGustMiles>16</WindGustMiles>
+      <WindGustKmph>26</WindGustKmph>
+      <FeelsLikeC>-0</FeelsLikeC>
       <FeelsLikeF>32</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>84</chanceofremdry>
+      <chanceofremdry>91</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>36</chanceofovercast>
-      <chanceofsunshine>83</chanceofsunshine>
+      <chanceofovercast>48</chanceofovercast>
+      <chanceofsunshine>77</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -746,9 +398,9 @@
       <time>0</time>
       <tempC>3</tempC>
       <tempF>38</tempF>
-      <windspeedMiles>8</windspeedMiles>
-      <windspeedKmph>13</windspeedKmph>
-      <winddirDegree>322</winddirDegree>
+      <windspeedMiles>9</windspeedMiles>
+      <windspeedKmph>14</windspeedKmph>
+      <winddirDegree>315</winddirDegree>
       <winddir16Point>NW</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
@@ -758,223 +410,18 @@
       <humidity>35</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1024</pressure>
+      <pressure>1023</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>11</cloudcover>
+      <cloudcover>7</cloudcover>
       <HeatIndexC>3</HeatIndexC>
       <HeatIndexF>38</HeatIndexF>
       <DewPointC>-11</DewPointC>
-      <DewPointF>12</DewPointF>
+      <DewPointF>13</DewPointF>
       <WindChillC>-0</WindChillC>
-      <WindChillF>32</WindChillF>
-      <WindGustMiles>12</WindGustMiles>
-      <WindGustKmph>19</WindGustKmph>
-      <FeelsLikeC>-0</FeelsLikeC>
-      <FeelsLikeF>32</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>87</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>40</chanceofovercast>
-      <chanceofsunshine>79</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>300</time>
-      <tempC>3</tempC>
-      <tempF>37</tempF>
-      <windspeedMiles>4</windspeedMiles>
-      <windspeedKmph>6</windspeedKmph>
-      <winddirDegree>318</winddirDegree>
-      <winddir16Point>NW</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>39</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1023</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>6</cloudcover>
-      <HeatIndexC>3</HeatIndexC>
-      <HeatIndexF>37</HeatIndexF>
-      <DewPointC>-10</DewPointC>
-      <DewPointF>14</DewPointF>
-      <WindChillC>1</WindChillC>
-      <WindChillF>34</WindChillF>
-      <WindGustMiles>5</WindGustMiles>
-      <WindGustKmph>8</WindGustKmph>
-      <FeelsLikeC>1</FeelsLikeC>
-      <FeelsLikeF>34</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>85</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>40</chanceofovercast>
-      <chanceofsunshine>83</chanceofsunshine>
-      <chanceoffrost>3</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>600</time>
-      <tempC>1</tempC>
-      <tempF>35</tempF>
-      <windspeedMiles>7</windspeedMiles>
-      <windspeedKmph>11</windspeedKmph>
-      <winddirDegree>304</winddirDegree>
-      <winddir16Point>NW</winddir16Point>
-      <weatherCode>113</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Clear]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>37</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1024</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>6</cloudcover>
-      <HeatIndexC>1</HeatIndexC>
-      <HeatIndexF>35</HeatIndexF>
-      <DewPointC>-12</DewPointC>
-      <DewPointF>11</DewPointF>
-      <WindChillC>-1</WindChillC>
-      <WindChillF>30</WindChillF>
-      <WindGustMiles>10</WindGustMiles>
-      <WindGustKmph>15</WindGustKmph>
-      <FeelsLikeC>-1</FeelsLikeC>
-      <FeelsLikeF>30</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>89</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>33</chanceofovercast>
-      <chanceofsunshine>80</chanceofsunshine>
-      <chanceoffrost>12</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>900</time>
-      <tempC>1</tempC>
-      <tempF>33</tempF>
-      <windspeedMiles>15</windspeedMiles>
-      <windspeedKmph>24</windspeedKmph>
-      <winddirDegree>321</winddirDegree>
-      <winddir16Point>NW</winddir16Point>
-      <weatherCode>113</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Sunny]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>25</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1026</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>0</cloudcover>
-      <HeatIndexC>1</HeatIndexC>
-      <HeatIndexF>33</HeatIndexF>
-      <DewPointC>-17</DewPointC>
-      <DewPointF>2</DewPointF>
-      <WindChillC>-5</WindChillC>
-      <WindChillF>24</WindChillF>
-      <WindGustMiles>21</WindGustMiles>
-      <WindGustKmph>33</WindGustKmph>
-      <FeelsLikeC>-5</FeelsLikeC>
-      <FeelsLikeF>24</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>83</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>89</chanceofsunshine>
-      <chanceoffrost>13</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>1200</time>
-      <tempC>2</tempC>
-      <tempF>35</tempF>
-      <windspeedMiles>14</windspeedMiles>
-      <windspeedKmph>22</windspeedKmph>
-      <winddirDegree>322</winddirDegree>
-      <winddir16Point>NW</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>18</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1028</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>1</cloudcover>
-      <HeatIndexC>2</HeatIndexC>
-      <HeatIndexF>35</HeatIndexF>
-      <DewPointC>-20</DewPointC>
-      <DewPointF>-4</DewPointF>
-      <WindChillC>-3</WindChillC>
-      <WindChillF>26</WindChillF>
-      <WindGustMiles>17</WindGustMiles>
-      <WindGustKmph>27</WindGustKmph>
-      <FeelsLikeC>-3</FeelsLikeC>
-      <FeelsLikeF>26</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>83</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>15</chanceofovercast>
-      <chanceofsunshine>89</chanceofsunshine>
-      <chanceoffrost>7</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>1500</time>
-      <tempC>3</tempC>
-      <tempF>37</tempF>
-      <windspeedMiles>10</windspeedMiles>
-      <windspeedKmph>16</windspeedKmph>
-      <winddirDegree>332</winddirDegree>
-      <winddir16Point>NNW</winddir16Point>
-      <weatherCode>116</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>17</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1028</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>3</cloudcover>
-      <HeatIndexC>3</HeatIndexC>
-      <HeatIndexF>37</HeatIndexF>
-      <DewPointC>-20</DewPointC>
-      <DewPointF>-4</DewPointF>
-      <WindChillC>-1</WindChillC>
       <WindChillF>31</WindChillF>
       <WindGustMiles>12</WindGustMiles>
       <WindGustKmph>19</WindGustKmph>
-      <FeelsLikeC>-1</FeelsLikeC>
+      <FeelsLikeC>-0</FeelsLikeC>
       <FeelsLikeF>31</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
       <chanceofremdry>90</chanceofremdry>
@@ -989,40 +436,245 @@
       <uvIndex>1</uvIndex>
     </hourly>
     <hourly>
-      <time>1800</time>
+      <time>300</time>
       <tempC>3</tempC>
       <tempF>37</tempF>
-      <windspeedMiles>6</windspeedMiles>
-      <windspeedKmph>9</windspeedKmph>
-      <winddirDegree>237</winddirDegree>
-      <winddir16Point>WSW</winddir16Point>
+      <windspeedMiles>4</windspeedMiles>
+      <windspeedKmph>7</windspeedKmph>
+      <winddirDegree>320</winddirDegree>
+      <winddir16Point>NW</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>19</humidity>
+      <humidity>36</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1029</pressure>
+      <pressure>1022</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>4</cloudcover>
+      <cloudcover>5</cloudcover>
       <HeatIndexC>3</HeatIndexC>
       <HeatIndexF>37</HeatIndexF>
-      <DewPointC>-18</DewPointC>
-      <DewPointF>-1</DewPointF>
+      <DewPointC>-10</DewPointC>
+      <DewPointF>13</DewPointF>
       <WindChillC>1</WindChillC>
-      <WindChillF>33</WindChillF>
-      <WindGustMiles>7</WindGustMiles>
-      <WindGustKmph>11</WindGustKmph>
+      <WindChillF>34</WindChillF>
+      <WindGustMiles>6</WindGustMiles>
+      <WindGustKmph>9</WindGustKmph>
       <FeelsLikeC>1</FeelsLikeC>
-      <FeelsLikeF>33</FeelsLikeF>
+      <FeelsLikeF>34</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>88</chanceofremdry>
+      <chanceofremdry>92</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>38</chanceofovercast>
-      <chanceofsunshine>75</chanceofsunshine>
-      <chanceoffrost>3</chanceoffrost>
+      <chanceofovercast>40</chanceofovercast>
+      <chanceofsunshine>88</chanceofsunshine>
+      <chanceoffrost>0</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>600</time>
+      <tempC>2</tempC>
+      <tempF>35</tempF>
+      <windspeedMiles>7</windspeedMiles>
+      <windspeedKmph>11</windspeedKmph>
+      <winddirDegree>300</winddirDegree>
+      <winddir16Point>WNW</winddir16Point>
+      <weatherCode>113</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Clear]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>34</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1023</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>6</cloudcover>
+      <HeatIndexC>2</HeatIndexC>
+      <HeatIndexF>35</HeatIndexF>
+      <DewPointC>-13</DewPointC>
+      <DewPointF>9</DewPointF>
+      <WindChillC>-1</WindChillC>
+      <WindChillF>30</WindChillF>
+      <WindGustMiles>10</WindGustMiles>
+      <WindGustKmph>16</WindGustKmph>
+      <FeelsLikeC>-1</FeelsLikeC>
+      <FeelsLikeF>30</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>91</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>25</chanceofovercast>
+      <chanceofsunshine>88</chanceofsunshine>
+      <chanceoffrost>5</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>900</time>
+      <tempC>1</tempC>
+      <tempF>34</tempF>
+      <windspeedMiles>15</windspeedMiles>
+      <windspeedKmph>23</windspeedKmph>
+      <winddirDegree>319</winddirDegree>
+      <winddir16Point>NW</winddir16Point>
+      <weatherCode>113</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Sunny]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>23</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1026</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>0</cloudcover>
+      <HeatIndexC>1</HeatIndexC>
+      <HeatIndexF>34</HeatIndexF>
+      <DewPointC>-18</DewPointC>
+      <DewPointF>-0</DewPointF>
+      <WindChillC>-5</WindChillC>
+      <WindChillF>24</WindChillF>
+      <WindGustMiles>20</WindGustMiles>
+      <WindGustKmph>32</WindGustKmph>
+      <FeelsLikeC>-5</FeelsLikeC>
+      <FeelsLikeF>24</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>89</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>0</chanceofovercast>
+      <chanceofsunshine>90</chanceofsunshine>
+      <chanceoffrost>13</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>1200</time>
+      <tempC>2</tempC>
+      <tempF>36</tempF>
+      <windspeedMiles>13</windspeedMiles>
+      <windspeedKmph>22</windspeedKmph>
+      <winddirDegree>321</winddirDegree>
+      <winddir16Point>NW</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>16</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1027</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>1</cloudcover>
+      <HeatIndexC>2</HeatIndexC>
+      <HeatIndexF>36</HeatIndexF>
+      <DewPointC>-21</DewPointC>
+      <DewPointF>-6</DewPointF>
+      <WindChillC>-3</WindChillC>
+      <WindChillF>27</WindChillF>
+      <WindGustMiles>17</WindGustMiles>
+      <WindGustKmph>27</WindGustKmph>
+      <FeelsLikeC>-3</FeelsLikeC>
+      <FeelsLikeF>27</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>90</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>10</chanceofovercast>
+      <chanceofsunshine>87</chanceofsunshine>
+      <chanceoffrost>7</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>1500</time>
+      <tempC>3</tempC>
+      <tempF>38</tempF>
+      <windspeedMiles>11</windspeedMiles>
+      <windspeedKmph>17</windspeedKmph>
+      <winddirDegree>324</winddirDegree>
+      <winddir16Point>NW</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>17</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1027</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>3</cloudcover>
+      <HeatIndexC>3</HeatIndexC>
+      <HeatIndexF>38</HeatIndexF>
+      <DewPointC>-20</DewPointC>
+      <DewPointF>-3</DewPointF>
+      <WindChillC>-1</WindChillC>
+      <WindChillF>30</WindChillF>
+      <WindGustMiles>13</WindGustMiles>
+      <WindGustKmph>21</WindGustKmph>
+      <FeelsLikeC>-1</FeelsLikeC>
+      <FeelsLikeF>30</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>86</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>36</chanceofovercast>
+      <chanceofsunshine>82</chanceofsunshine>
+      <chanceoffrost>0</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>1800</time>
+      <tempC>3</tempC>
+      <tempF>37</tempF>
+      <windspeedMiles>7</windspeedMiles>
+      <windspeedKmph>12</windspeedKmph>
+      <winddirDegree>342</winddirDegree>
+      <winddir16Point>NNW</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>21</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1028</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>6</cloudcover>
+      <HeatIndexC>3</HeatIndexC>
+      <HeatIndexF>37</HeatIndexF>
+      <DewPointC>-17</DewPointC>
+      <DewPointF>1</DewPointF>
+      <WindChillC>0</WindChillC>
+      <WindChillF>32</WindChillF>
+      <WindGustMiles>9</WindGustMiles>
+      <WindGustKmph>14</WindGustKmph>
+      <FeelsLikeC>0</FeelsLikeC>
+      <FeelsLikeF>32</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>84</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>42</chanceofovercast>
+      <chanceofsunshine>82</chanceofsunshine>
+      <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
       <chanceofsnow>0</chanceofsnow>
@@ -1033,37 +685,37 @@
       <time>2100</time>
       <tempC>2</tempC>
       <tempF>35</tempF>
-      <windspeedMiles>4</windspeedMiles>
-      <windspeedKmph>7</windspeedKmph>
-      <winddirDegree>23</winddirDegree>
-      <winddir16Point>NNE</winddir16Point>
+      <windspeedMiles>5</windspeedMiles>
+      <windspeedKmph>8</windspeedKmph>
+      <winddirDegree>250</winddirDegree>
+      <winddir16Point>WSW</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>23</humidity>
+      <humidity>24</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1030</pressure>
+      <pressure>1029</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>5</cloudcover>
+      <cloudcover>8</cloudcover>
       <HeatIndexC>2</HeatIndexC>
       <HeatIndexF>35</HeatIndexF>
-      <DewPointC>-17</DewPointC>
-      <DewPointF>1</DewPointF>
-      <WindChillC>-0</WindChillC>
-      <WindChillF>31</WindChillF>
-      <WindGustMiles>5</WindGustMiles>
-      <WindGustKmph>8</WindGustKmph>
-      <FeelsLikeC>-0</FeelsLikeC>
-      <FeelsLikeF>31</FeelsLikeF>
+      <DewPointC>-16</DewPointC>
+      <DewPointF>3</DewPointF>
+      <WindChillC>0</WindChillC>
+      <WindChillF>32</WindChillF>
+      <WindGustMiles>6</WindGustMiles>
+      <WindGustKmph>9</WindGustKmph>
+      <FeelsLikeC>0</FeelsLikeC>
+      <FeelsLikeF>32</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>84</chanceofremdry>
+      <chanceofremdry>87</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>35</chanceofovercast>
-      <chanceofsunshine>81</chanceofsunshine>
-      <chanceoffrost>10</chanceoffrost>
+      <chanceofovercast>34</chanceofovercast>
+      <chanceofsunshine>78</chanceofsunshine>
+      <chanceoffrost>3</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
       <chanceofsnow>0</chanceofsnow>
@@ -1081,48 +733,48 @@
       <moon_phase>Full Moon</moon_phase>
       <moon_illumination>100</moon_illumination>
     </astronomy>
-    <maxtempC>6</maxtempC>
-    <maxtempF>43</maxtempF>
+    <maxtempC>7</maxtempC>
+    <maxtempF>44</maxtempF>
     <mintempC>1</mintempC>
     <mintempF>34</mintempF>
     <avgtempC>4</avgtempC>
-    <avgtempF>38</avgtempF>
+    <avgtempF>39</avgtempF>
     <totalSnow_cm>0.0</totalSnow_cm>
     <sunHour>8.7</sunHour>
     <uvIndex>1</uvIndex>
     <hourly>
       <time>0</time>
-      <tempC>1</tempC>
-      <tempF>34</tempF>
-      <windspeedMiles>2</windspeedMiles>
-      <windspeedKmph>4</windspeedKmph>
-      <winddirDegree>84</winddirDegree>
+      <tempC>2</tempC>
+      <tempF>35</tempF>
+      <windspeedMiles>1</windspeedMiles>
+      <windspeedKmph>2</windspeedKmph>
+      <winddirDegree>80</winddirDegree>
       <winddir16Point>E</winddir16Point>
       <weatherCode>116</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>25</humidity>
+      <humidity>27</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
       <pressure>1030</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>5</cloudcover>
-      <HeatIndexC>1</HeatIndexC>
-      <HeatIndexF>34</HeatIndexF>
-      <DewPointC>-17</DewPointC>
-      <DewPointF>2</DewPointF>
-      <WindChillC>1</WindChillC>
-      <WindChillF>33</WindChillF>
+      <cloudcover>6</cloudcover>
+      <HeatIndexC>2</HeatIndexC>
+      <HeatIndexF>35</HeatIndexF>
+      <DewPointC>-15</DewPointC>
+      <DewPointF>4</DewPointF>
+      <WindChillC>2</WindChillC>
+      <WindChillF>35</WindChillF>
       <WindGustMiles>2</WindGustMiles>
-      <WindGustKmph>4</WindGustKmph>
-      <FeelsLikeC>1</FeelsLikeC>
-      <FeelsLikeF>33</FeelsLikeF>
+      <WindGustKmph>3</WindGustKmph>
+      <FeelsLikeC>2</FeelsLikeC>
+      <FeelsLikeF>35</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>89</chanceofremdry>
+      <chanceofremdry>93</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>35</chanceofovercast>
+      <chanceofovercast>40</chanceofovercast>
       <chanceofsunshine>83</chanceofsunshine>
       <chanceoffrost>10</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
@@ -1136,35 +788,35 @@
       <tempC>2</tempC>
       <tempF>35</tempF>
       <windspeedMiles>2</windspeedMiles>
-      <windspeedKmph>4</windspeedKmph>
-      <winddirDegree>170</winddirDegree>
-      <winddir16Point>S</winddir16Point>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>158</winddirDegree>
+      <winddir16Point>SSE</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>24</humidity>
+      <humidity>27</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
       <pressure>1029</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>2</cloudcover>
+      <cloudcover>3</cloudcover>
       <HeatIndexC>2</HeatIndexC>
       <HeatIndexF>35</HeatIndexF>
-      <DewPointC>-16</DewPointC>
-      <DewPointF>2</DewPointF>
-      <WindChillC>1</WindChillC>
-      <WindChillF>34</WindChillF>
-      <WindGustMiles>3</WindGustMiles>
-      <WindGustKmph>4</WindGustKmph>
-      <FeelsLikeC>1</FeelsLikeC>
-      <FeelsLikeF>34</FeelsLikeF>
+      <DewPointC>-15</DewPointC>
+      <DewPointF>5</DewPointF>
+      <WindChillC>2</WindChillC>
+      <WindChillF>35</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
+      <WindGustKmph>3</WindGustKmph>
+      <FeelsLikeC>2</FeelsLikeC>
+      <FeelsLikeF>35</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>87</chanceofremdry>
+      <chanceofremdry>90</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>27</chanceofovercast>
-      <chanceofsunshine>87</chanceofsunshine>
+      <chanceofovercast>26</chanceofovercast>
+      <chanceofsunshine>83</chanceofsunshine>
       <chanceoffrost>7</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1174,38 +826,38 @@
     </hourly>
     <hourly>
       <time>600</time>
-      <tempC>2</tempC>
-      <tempF>36</tempF>
+      <tempC>3</tempC>
+      <tempF>37</tempF>
       <windspeedMiles>1</windspeedMiles>
       <windspeedKmph>2</windspeedKmph>
-      <winddirDegree>131</winddirDegree>
-      <winddir16Point>SE</winddir16Point>
+      <winddirDegree>122</winddirDegree>
+      <winddir16Point>ESE</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>25</humidity>
+      <humidity>27</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1028</pressure>
+      <pressure>1029</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
-      <HeatIndexC>2</HeatIndexC>
-      <HeatIndexF>36</HeatIndexF>
-      <DewPointC>-16</DewPointC>
-      <DewPointF>4</DewPointF>
-      <WindChillC>2</WindChillC>
-      <WindChillF>36</WindChillF>
+      <HeatIndexC>3</HeatIndexC>
+      <HeatIndexF>37</HeatIndexF>
+      <DewPointC>-15</DewPointC>
+      <DewPointF>6</DewPointF>
+      <WindChillC>3</WindChillC>
+      <WindChillF>37</WindChillF>
       <WindGustMiles>1</WindGustMiles>
       <WindGustKmph>2</WindGustKmph>
-      <FeelsLikeC>2</FeelsLikeC>
-      <FeelsLikeF>36</FeelsLikeF>
+      <FeelsLikeC>3</FeelsLikeC>
+      <FeelsLikeF>37</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>88</chanceofremdry>
+      <chanceofremdry>84</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>85</chanceofsunshine>
+      <chanceofsunshine>89</chanceofsunshine>
       <chanceoffrost>3</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1216,37 +868,37 @@
     <hourly>
       <time>900</time>
       <tempC>2</tempC>
-      <tempF>35</tempF>
+      <tempF>36</tempF>
       <windspeedMiles>1</windspeedMiles>
       <windspeedKmph>1</windspeedKmph>
-      <winddirDegree>69</winddirDegree>
-      <winddir16Point>ENE</winddir16Point>
+      <winddirDegree>83</winddirDegree>
+      <winddir16Point>E</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Sunny]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>25</humidity>
+      <humidity>26</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1028</pressure>
+      <pressure>1029</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
       <HeatIndexC>2</HeatIndexC>
-      <HeatIndexF>35</HeatIndexF>
-      <DewPointC>-16</DewPointC>
-      <DewPointF>3</DewPointF>
+      <HeatIndexF>36</HeatIndexF>
+      <DewPointC>-15</DewPointC>
+      <DewPointF>5</DewPointF>
       <WindChillC>2</WindChillC>
-      <WindChillF>35</WindChillF>
+      <WindChillF>36</WindChillF>
       <WindGustMiles>1</WindGustMiles>
       <WindGustKmph>2</WindGustKmph>
       <FeelsLikeC>2</FeelsLikeC>
-      <FeelsLikeF>35</FeelsLikeF>
+      <FeelsLikeF>36</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>84</chanceofremdry>
+      <chanceofremdry>85</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>87</chanceofsunshine>
+      <chanceofsunshine>92</chanceofsunshine>
       <chanceoffrost>7</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1257,11 +909,52 @@
     <hourly>
       <time>1200</time>
       <tempC>4</tempC>
-      <tempF>39</tempF>
+      <tempF>40</tempF>
       <windspeedMiles>1</windspeedMiles>
       <windspeedKmph>1</windspeedKmph>
-      <winddirDegree>106</winddirDegree>
-      <winddir16Point>ESE</winddir16Point>
+      <winddirDegree>140</winddirDegree>
+      <winddir16Point>SE</winddir16Point>
+      <weatherCode>113</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Sunny]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>22</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1028</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>0</cloudcover>
+      <HeatIndexC>4</HeatIndexC>
+      <HeatIndexF>40</HeatIndexF>
+      <DewPointC>-15</DewPointC>
+      <DewPointF>4</DewPointF>
+      <WindChillC>4</WindChillC>
+      <WindChillF>40</WindChillF>
+      <WindGustMiles>1</WindGustMiles>
+      <WindGustKmph>2</WindGustKmph>
+      <FeelsLikeC>4</FeelsLikeC>
+      <FeelsLikeF>40</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>84</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>0</chanceofovercast>
+      <chanceofsunshine>86</chanceofsunshine>
+      <chanceoffrost>0</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>1500</time>
+      <tempC>7</tempC>
+      <tempF>44</tempF>
+      <windspeedMiles>1</windspeedMiles>
+      <windspeedKmph>2</windspeedKmph>
+      <winddirDegree>257</winddirDegree>
+      <winddir16Point>WSW</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Sunny]]></weatherDesc>
@@ -1273,62 +966,21 @@
       <pressure>1026</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
-      <HeatIndexC>4</HeatIndexC>
-      <HeatIndexF>39</HeatIndexF>
-      <DewPointC>-16</DewPointC>
-      <DewPointF>3</DewPointF>
-      <WindChillC>4</WindChillC>
-      <WindChillF>39</WindChillF>
-      <WindGustMiles>1</WindGustMiles>
-      <WindGustKmph>2</WindGustKmph>
-      <FeelsLikeC>4</FeelsLikeC>
-      <FeelsLikeF>39</FeelsLikeF>
-      <chanceofrain>0</chanceofrain>
-      <chanceofremdry>90</chanceofremdry>
-      <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>90</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
-      <chanceofhightemp>0</chanceofhightemp>
-      <chanceoffog>0</chanceoffog>
-      <chanceofsnow>0</chanceofsnow>
-      <chanceofthunder>0</chanceofthunder>
-      <uvIndex>1</uvIndex>
-    </hourly>
-    <hourly>
-      <time>1500</time>
-      <tempC>6</tempC>
-      <tempF>43</tempF>
-      <windspeedMiles>1</windspeedMiles>
-      <windspeedKmph>2</windspeedKmph>
-      <winddirDegree>251</winddirDegree>
-      <winddir16Point>WSW</winddir16Point>
-      <weatherCode>113</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Sunny]]></weatherDesc>
-      <precipMM>0.0</precipMM>
-      <precipInches>0.0</precipInches>
-      <humidity>21</humidity>
-      <visibility>10</visibility>
-      <visibilityMiles>6</visibilityMiles>
-      <pressure>1024</pressure>
-      <pressureInches>31</pressureInches>
-      <cloudcover>0</cloudcover>
-      <HeatIndexC>6</HeatIndexC>
-      <HeatIndexF>43</HeatIndexF>
+      <HeatIndexC>7</HeatIndexC>
+      <HeatIndexF>44</HeatIndexF>
       <DewPointC>-15</DewPointC>
-      <DewPointF>5</DewPointF>
+      <DewPointF>6</DewPointF>
       <WindChillC>6</WindChillC>
-      <WindChillF>42</WindChillF>
+      <WindChillF>44</WindChillF>
       <WindGustMiles>2</WindGustMiles>
       <WindGustKmph>3</WindGustKmph>
       <FeelsLikeC>6</FeelsLikeC>
-      <FeelsLikeF>42</FeelsLikeF>
+      <FeelsLikeF>44</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>88</chanceofremdry>
+      <chanceofremdry>93</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>89</chanceofsunshine>
+      <chanceofsunshine>86</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1339,37 +991,37 @@
     <hourly>
       <time>1800</time>
       <tempC>6</tempC>
-      <tempF>42</tempF>
+      <tempF>43</tempF>
       <windspeedMiles>3</windspeedMiles>
       <windspeedKmph>4</windspeedKmph>
-      <winddirDegree>245</winddirDegree>
+      <winddirDegree>240</winddirDegree>
       <winddir16Point>WSW</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>22</humidity>
+      <humidity>23</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1023</pressure>
+      <pressure>1025</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
       <HeatIndexC>6</HeatIndexC>
-      <HeatIndexF>42</HeatIndexF>
+      <HeatIndexF>43</HeatIndexF>
       <DewPointC>-14</DewPointC>
-      <DewPointF>6</DewPointF>
-      <WindChillC>5</WindChillC>
-      <WindChillF>41</WindChillF>
+      <DewPointF>8</DewPointF>
+      <WindChillC>6</WindChillC>
+      <WindChillF>42</WindChillF>
       <WindGustMiles>3</WindGustMiles>
       <WindGustKmph>5</WindGustKmph>
-      <FeelsLikeC>5</FeelsLikeC>
-      <FeelsLikeF>41</FeelsLikeF>
+      <FeelsLikeC>6</FeelsLikeC>
+      <FeelsLikeF>42</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>91</chanceofremdry>
+      <chanceofremdry>90</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>92</chanceofsunshine>
+      <chanceofsunshine>88</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1379,38 +1031,38 @@
     </hourly>
     <hourly>
       <time>2100</time>
-      <tempC>4</tempC>
-      <tempF>40</tempF>
+      <tempC>5</tempC>
+      <tempF>41</tempF>
       <windspeedMiles>3</windspeedMiles>
       <windspeedKmph>5</windspeedKmph>
-      <winddirDegree>23</winddirDegree>
+      <winddirDegree>18</winddirDegree>
       <winddir16Point>NNE</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>24</humidity>
+      <humidity>25</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1023</pressure>
+      <pressure>1025</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
-      <HeatIndexC>4</HeatIndexC>
-      <HeatIndexF>40</HeatIndexF>
-      <DewPointC>-14</DewPointC>
-      <DewPointF>6</DewPointF>
-      <WindChillC>3</WindChillC>
-      <WindChillF>38</WindChillF>
-      <WindGustMiles>4</WindGustMiles>
-      <WindGustKmph>6</WindGustKmph>
-      <FeelsLikeC>3</FeelsLikeC>
-      <FeelsLikeF>38</FeelsLikeF>
+      <HeatIndexC>5</HeatIndexC>
+      <HeatIndexF>41</HeatIndexF>
+      <DewPointC>-13</DewPointC>
+      <DewPointF>8</DewPointF>
+      <WindChillC>4</WindChillC>
+      <WindChillF>39</WindChillF>
+      <WindGustMiles>3</WindGustMiles>
+      <WindGustKmph>5</WindGustKmph>
+      <FeelsLikeC>4</FeelsLikeC>
+      <FeelsLikeF>39</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>88</chanceofremdry>
+      <chanceofremdry>86</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>92</chanceofsunshine>
+      <chanceofsunshine>89</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1429,11 +1081,11 @@
       <moon_phase>Waxing Gibbous</moon_phase>
       <moon_illumination>87</moon_illumination>
     </astronomy>
-    <maxtempC>8</maxtempC>
-    <maxtempF>46</maxtempF>
+    <maxtempC>11</maxtempC>
+    <maxtempF>51</maxtempF>
     <mintempC>2</mintempC>
-    <mintempF>36</mintempF>
-    <avgtempC>5</avgtempC>
+    <mintempF>35</mintempF>
+    <avgtempC>6</avgtempC>
     <avgtempF>42</avgtempF>
     <totalSnow_cm>0.0</totalSnow_cm>
     <sunHour>8.7</sunHour>
@@ -1442,36 +1094,36 @@
       <time>0</time>
       <tempC>4</tempC>
       <tempF>39</tempF>
-      <windspeedMiles>3</windspeedMiles>
+      <windspeedMiles>2</windspeedMiles>
       <windspeedKmph>4</windspeedKmph>
-      <winddirDegree>32</winddirDegree>
+      <winddirDegree>28</winddirDegree>
       <winddir16Point>NNE</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>26</humidity>
+      <humidity>27</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1022</pressure>
+      <pressure>1024</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
       <HeatIndexC>4</HeatIndexC>
       <HeatIndexF>39</HeatIndexF>
-      <DewPointC>-14</DewPointC>
-      <DewPointF>7</DewPointF>
+      <DewPointC>-13</DewPointC>
+      <DewPointF>8</DewPointF>
       <WindChillC>3</WindChillC>
-      <WindChillF>37</WindChillF>
+      <WindChillF>38</WindChillF>
       <WindGustMiles>3</WindGustMiles>
       <WindGustKmph>5</WindGustKmph>
       <FeelsLikeC>3</FeelsLikeC>
-      <FeelsLikeF>37</FeelsLikeF>
+      <FeelsLikeF>38</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
       <chanceofremdry>91</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>90</chanceofsunshine>
+      <chanceofsunshine>93</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1482,37 +1134,37 @@
     <hourly>
       <time>300</time>
       <tempC>4</tempC>
-      <tempF>38</tempF>
+      <tempF>39</tempF>
       <windspeedMiles>2</windspeedMiles>
-      <windspeedKmph>4</windspeedKmph>
-      <winddirDegree>26</winddirDegree>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>27</winddirDegree>
       <winddir16Point>NNE</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>27</humidity>
+      <humidity>29</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1021</pressure>
+      <pressure>1023</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
       <HeatIndexC>4</HeatIndexC>
-      <HeatIndexF>38</HeatIndexF>
-      <DewPointC>-14</DewPointC>
-      <DewPointF>8</DewPointF>
+      <HeatIndexF>39</HeatIndexF>
+      <DewPointC>-13</DewPointC>
+      <DewPointF>9</DewPointF>
       <WindChillC>3</WindChillC>
-      <WindChillF>37</WindChillF>
-      <WindGustMiles>3</WindGustMiles>
+      <WindChillF>38</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
       <WindGustKmph>4</WindGustKmph>
       <FeelsLikeC>3</FeelsLikeC>
-      <FeelsLikeF>37</FeelsLikeF>
+      <FeelsLikeF>38</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
       <chanceofremdry>91</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>88</chanceofsunshine>
+      <chanceofsunshine>93</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1524,21 +1176,21 @@
       <time>600</time>
       <tempC>3</tempC>
       <tempF>37</tempF>
-      <windspeedMiles>3</windspeedMiles>
-      <windspeedKmph>5</windspeedKmph>
-      <winddirDegree>12</winddirDegree>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>4</windspeedKmph>
+      <winddirDegree>17</winddirDegree>
       <winddir16Point>NNE</winddir16Point>
-      <weatherCode>113</weatherCode>
-      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
-      <weatherDesc><![CDATA[Clear]]></weatherDesc>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
       <humidity>30</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1021</pressure>
+      <pressure>1023</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>0</cloudcover>
+      <cloudcover>1</cloudcover>
       <HeatIndexC>3</HeatIndexC>
       <HeatIndexF>37</HeatIndexF>
       <DewPointC>-13</DewPointC>
@@ -1550,11 +1202,11 @@
       <FeelsLikeC>2</FeelsLikeC>
       <FeelsLikeF>35</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>86</chanceofremdry>
+      <chanceofremdry>88</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>85</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
+      <chanceofovercast>16</chanceofovercast>
+      <chanceofsunshine>87</chanceofsunshine>
+      <chanceoffrost>3</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
       <chanceofsnow>0</chanceofsnow>
@@ -1563,39 +1215,39 @@
     </hourly>
     <hourly>
       <time>900</time>
-      <tempC>4</tempC>
-      <tempF>39</tempF>
-      <windspeedMiles>3</windspeedMiles>
-      <windspeedKmph>5</windspeedKmph>
-      <winddirDegree>116</winddirDegree>
-      <winddir16Point>ESE</winddir16Point>
+      <tempC>3</tempC>
+      <tempF>37</tempF>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>28</winddirDegree>
+      <winddir16Point>NNE</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Sunny]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>33</humidity>
+      <humidity>31</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1023</pressure>
+      <pressure>1024</pressure>
       <pressureInches>31</pressureInches>
-      <cloudcover>0</cloudcover>
-      <HeatIndexC>4</HeatIndexC>
-      <HeatIndexF>39</HeatIndexF>
-      <DewPointC>-11</DewPointC>
-      <DewPointF>12</DewPointF>
-      <WindChillC>3</WindChillC>
-      <WindChillF>37</WindChillF>
-      <WindGustMiles>4</WindGustMiles>
-      <WindGustKmph>6</WindGustKmph>
-      <FeelsLikeC>3</FeelsLikeC>
-      <FeelsLikeF>37</FeelsLikeF>
+      <cloudcover>1</cloudcover>
+      <HeatIndexC>3</HeatIndexC>
+      <HeatIndexF>37</HeatIndexF>
+      <DewPointC>-13</DewPointC>
+      <DewPointF>9</DewPointF>
+      <WindChillC>2</WindChillC>
+      <WindChillF>36</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
+      <WindGustKmph>3</WindGustKmph>
+      <FeelsLikeC>2</FeelsLikeC>
+      <FeelsLikeF>36</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>88</chanceofremdry>
+      <chanceofremdry>86</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>87</chanceofsunshine>
-      <chanceoffrost>0</chanceoffrost>
+      <chanceofovercast>32</chanceofovercast>
+      <chanceofsunshine>82</chanceofsunshine>
+      <chanceoffrost>7</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
       <chanceofsnow>0</chanceofsnow>
@@ -1605,37 +1257,37 @@
     <hourly>
       <time>1200</time>
       <tempC>7</tempC>
-      <tempF>44</tempF>
-      <windspeedMiles>6</windspeedMiles>
-      <windspeedKmph>10</windspeedKmph>
-      <winddirDegree>332</winddirDegree>
-      <winddir16Point>NNW</winddir16Point>
+      <tempF>45</tempF>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>155</winddirDegree>
+      <winddir16Point>SSE</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Sunny]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>29</humidity>
+      <humidity>27</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
       <pressure>1024</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
       <HeatIndexC>7</HeatIndexC>
-      <HeatIndexF>44</HeatIndexF>
-      <DewPointC>-10</DewPointC>
-      <DewPointF>14</DewPointF>
-      <WindChillC>5</WindChillC>
-      <WindChillF>41</WindChillF>
-      <WindGustMiles>8</WindGustMiles>
-      <WindGustKmph>13</WindGustKmph>
-      <FeelsLikeC>5</FeelsLikeC>
-      <FeelsLikeF>41</FeelsLikeF>
+      <HeatIndexF>45</HeatIndexF>
+      <DewPointC>-11</DewPointC>
+      <DewPointF>13</DewPointF>
+      <WindChillC>7</WindChillC>
+      <WindChillF>44</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
+      <WindGustKmph>3</WindGustKmph>
+      <FeelsLikeC>7</FeelsLikeC>
+      <FeelsLikeF>44</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>92</chanceofremdry>
+      <chanceofremdry>85</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>89</chanceofsunshine>
+      <chanceofsunshine>91</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1645,38 +1297,38 @@
     </hourly>
     <hourly>
       <time>1500</time>
-      <tempC>8</tempC>
-      <tempF>46</tempF>
-      <windspeedMiles>11</windspeedMiles>
-      <windspeedKmph>17</windspeedKmph>
-      <winddirDegree>326</winddirDegree>
+      <tempC>10</tempC>
+      <tempF>50</tempF>
+      <windspeedMiles>5</windspeedMiles>
+      <windspeedKmph>8</windspeedKmph>
+      <winddirDegree>337</winddirDegree>
       <winddir16Point>NNW</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0001_sunny.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Sunny]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>27</humidity>
+      <humidity>26</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
       <pressure>1025</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
-      <HeatIndexC>8</HeatIndexC>
-      <HeatIndexF>46</HeatIndexF>
-      <DewPointC>-10</DewPointC>
-      <DewPointF>14</DewPointF>
-      <WindChillC>5</WindChillC>
-      <WindChillF>40</WindChillF>
-      <WindGustMiles>14</WindGustMiles>
-      <WindGustKmph>23</WindGustKmph>
-      <FeelsLikeC>5</FeelsLikeC>
-      <FeelsLikeF>40</FeelsLikeF>
+      <HeatIndexC>10</HeatIndexC>
+      <HeatIndexF>50</HeatIndexF>
+      <DewPointC>-9</DewPointC>
+      <DewPointF>16</DewPointF>
+      <WindChillC>9</WindChillC>
+      <WindChillF>48</WindChillF>
+      <WindGustMiles>6</WindGustMiles>
+      <WindGustKmph>10</WindGustKmph>
+      <FeelsLikeC>9</FeelsLikeC>
+      <FeelsLikeF>48</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>89</chanceofremdry>
+      <chanceofremdry>84</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>86</chanceofsunshine>
+      <chanceofsunshine>92</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1686,38 +1338,38 @@
     </hourly>
     <hourly>
       <time>1800</time>
-      <tempC>7</tempC>
-      <tempF>45</tempF>
-      <windspeedMiles>7</windspeedMiles>
-      <windspeedKmph>11</windspeedKmph>
-      <winddirDegree>332</winddirDegree>
+      <tempC>8</tempC>
+      <tempF>46</tempF>
+      <windspeedMiles>6</windspeedMiles>
+      <windspeedKmph>10</windspeedKmph>
+      <winddirDegree>340</winddirDegree>
       <winddir16Point>NNW</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
       <precipMM>0.0</precipMM>
       <precipInches>0.0</precipInches>
-      <humidity>33</humidity>
+      <humidity>31</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1029</pressure>
+      <pressure>1028</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
-      <HeatIndexC>7</HeatIndexC>
-      <HeatIndexF>45</HeatIndexF>
+      <HeatIndexC>8</HeatIndexC>
+      <HeatIndexF>46</HeatIndexF>
       <DewPointC>-8</DewPointC>
       <DewPointF>17</DewPointF>
-      <WindChillC>5</WindChillC>
-      <WindChillF>41</WindChillF>
-      <WindGustMiles>8</WindGustMiles>
-      <WindGustKmph>13</WindGustKmph>
-      <FeelsLikeC>5</FeelsLikeC>
-      <FeelsLikeF>41</FeelsLikeF>
+      <WindChillC>6</WindChillC>
+      <WindChillF>43</WindChillF>
+      <WindGustMiles>7</WindGustMiles>
+      <WindGustKmph>11</WindGustKmph>
+      <FeelsLikeC>6</FeelsLikeC>
+      <FeelsLikeF>43</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
-      <chanceofremdry>82</chanceofremdry>
+      <chanceofremdry>88</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
       <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>85</chanceofsunshine>
+      <chanceofsunshine>91</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
@@ -1730,9 +1382,9 @@
       <tempC>6</tempC>
       <tempF>43</tempF>
       <windspeedMiles>6</windspeedMiles>
-      <windspeedKmph>9</windspeedKmph>
-      <winddirDegree>337</winddirDegree>
-      <winddir16Point>NNW</winddir16Point>
+      <windspeedKmph>10</windspeedKmph>
+      <winddirDegree>234</winddirDegree>
+      <winddir16Point>SW</winddir16Point>
       <weatherCode>113</weatherCode>
       <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
       <weatherDesc><![CDATA[Clear]]></weatherDesc>
@@ -1741,7 +1393,7 @@
       <humidity>38</humidity>
       <visibility>10</visibility>
       <visibilityMiles>6</visibilityMiles>
-      <pressure>1032</pressure>
+      <pressure>1031</pressure>
       <pressureInches>31</pressureInches>
       <cloudcover>0</cloudcover>
       <HeatIndexC>6</HeatIndexC>
@@ -1750,16 +1402,364 @@
       <DewPointF>19</DewPointF>
       <WindChillC>4</WindChillC>
       <WindChillF>39</WindChillF>
+      <WindGustMiles>7</WindGustMiles>
+      <WindGustKmph>11</WindGustKmph>
+      <FeelsLikeC>4</FeelsLikeC>
+      <FeelsLikeF>39</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>86</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>0</chanceofovercast>
+      <chanceofsunshine>91</chanceofsunshine>
+      <chanceoffrost>0</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+  </weather>
+  <weather>
+    <date>2019-12-14</date>
+    <astronomy>
+      <sunrise>07:28 AM</sunrise>
+      <sunset>04:50 PM</sunset>
+      <moonrise>06:49 PM</moonrise>
+      <moonset>09:12 AM</moonset>
+      <moon_phase>Waning Gibbous</moon_phase>
+      <moon_illumination>79</moon_illumination>
+    </astronomy>
+    <maxtempC>4</maxtempC>
+    <maxtempF>40</maxtempF>
+    <mintempC>-3</mintempC>
+    <mintempF>26</mintempF>
+    <avgtempC>2</avgtempC>
+    <avgtempF>35</avgtempF>
+    <totalSnow_cm>0.0</totalSnow_cm>
+    <sunHour>5.2</sunHour>
+    <uvIndex>1</uvIndex>
+    <hourly>
+      <time>0</time>
+      <tempC>5</tempC>
+      <tempF>40</tempF>
+      <windspeedMiles>6</windspeedMiles>
+      <windspeedKmph>10</windspeedKmph>
+      <winddirDegree>6</winddirDegree>
+      <winddir16Point>N</winddir16Point>
+      <weatherCode>113</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Clear]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>42</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1033</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>0</cloudcover>
+      <HeatIndexC>5</HeatIndexC>
+      <HeatIndexF>40</HeatIndexF>
+      <DewPointC>-7</DewPointC>
+      <DewPointF>19</DewPointF>
+      <WindChillC>2</WindChillC>
+      <WindChillF>36</WindChillF>
+      <WindGustMiles>7</WindGustMiles>
+      <WindGustKmph>11</WindGustKmph>
+      <FeelsLikeC>2</FeelsLikeC>
+      <FeelsLikeF>36</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>88</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>0</chanceofovercast>
+      <chanceofsunshine>86</chanceofsunshine>
+      <chanceoffrost>0</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>300</time>
+      <tempC>3</tempC>
+      <tempF>37</tempF>
+      <windspeedMiles>5</windspeedMiles>
+      <windspeedKmph>9</windspeedKmph>
+      <winddirDegree>17</winddirDegree>
+      <winddir16Point>NNE</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>44</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1033</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>3</cloudcover>
+      <HeatIndexC>3</HeatIndexC>
+      <HeatIndexF>37</HeatIndexF>
+      <DewPointC>-8</DewPointC>
+      <DewPointF>17</DewPointF>
+      <WindChillC>1</WindChillC>
+      <WindChillF>33</WindChillF>
+      <WindGustMiles>7</WindGustMiles>
+      <WindGustKmph>11</WindGustKmph>
+      <FeelsLikeC>1</FeelsLikeC>
+      <FeelsLikeF>33</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>88</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>12</chanceofovercast>
+      <chanceofsunshine>87</chanceofsunshine>
+      <chanceoffrost>5</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>600</time>
+      <tempC>1</tempC>
+      <tempF>33</tempF>
+      <windspeedMiles>4</windspeedMiles>
+      <windspeedKmph>6</windspeedKmph>
+      <winddirDegree>20</winddirDegree>
+      <winddir16Point>NNE</winddir16Point>
+      <weatherCode>122</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Overcast]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>44</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1033</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>39</cloudcover>
+      <HeatIndexC>1</HeatIndexC>
+      <HeatIndexF>33</HeatIndexF>
+      <DewPointC>-10</DewPointC>
+      <DewPointF>14</DewPointF>
+      <WindChillC>-1</WindChillC>
+      <WindChillF>29</WindChillF>
       <WindGustMiles>6</WindGustMiles>
-      <WindGustKmph>10</WindGustKmph>
+      <WindGustKmph>9</WindGustKmph>
+      <FeelsLikeC>-1</FeelsLikeC>
+      <FeelsLikeF>29</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>88</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>53</chanceofovercast>
+      <chanceofsunshine>60</chanceofsunshine>
+      <chanceoffrost>20</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>900</time>
+      <tempC>1</tempC>
+      <tempF>33</tempF>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>4</windspeedKmph>
+      <winddirDegree>30</winddirDegree>
+      <winddir16Point>NNE</winddir16Point>
+      <weatherCode>122</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Overcast]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>40</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1034</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>100</cloudcover>
+      <HeatIndexC>1</HeatIndexC>
+      <HeatIndexF>33</HeatIndexF>
+      <DewPointC>-11</DewPointC>
+      <DewPointF>11</DewPointF>
+      <WindChillC>-0</WindChillC>
+      <WindChillF>31</WindChillF>
+      <WindGustMiles>4</WindGustMiles>
+      <WindGustKmph>6</WindGustKmph>
+      <FeelsLikeC>-0</FeelsLikeC>
+      <FeelsLikeF>31</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>91</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>90</chanceofovercast>
+      <chanceofsunshine>17</chanceofsunshine>
+      <chanceoffrost>20</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>1200</time>
+      <tempC>3</tempC>
+      <tempF>37</tempF>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>81</winddirDegree>
+      <winddir16Point>E</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>33</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1033</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>77</cloudcover>
+      <HeatIndexC>3</HeatIndexC>
+      <HeatIndexF>37</HeatIndexF>
+      <DewPointC>-12</DewPointC>
+      <DewPointF>11</DewPointF>
+      <WindChillC>2</WindChillC>
+      <WindChillF>36</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
+      <WindGustKmph>4</WindGustKmph>
+      <FeelsLikeC>2</FeelsLikeC>
+      <FeelsLikeF>36</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>86</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>75</chanceofovercast>
+      <chanceofsunshine>40</chanceofsunshine>
+      <chanceoffrost>0</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>1500</time>
+      <tempC>4</tempC>
+      <tempF>39</tempF>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>131</winddirDegree>
+      <winddir16Point>SE</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>31</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1032</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>32</cloudcover>
+      <HeatIndexC>4</HeatIndexC>
+      <HeatIndexF>39</HeatIndexF>
+      <DewPointC>-12</DewPointC>
+      <DewPointF>11</DewPointF>
+      <WindChillC>4</WindChillC>
+      <WindChillF>39</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
+      <WindGustKmph>3</WindGustKmph>
       <FeelsLikeC>4</FeelsLikeC>
       <FeelsLikeF>39</FeelsLikeF>
       <chanceofrain>0</chanceofrain>
       <chanceofremdry>89</chanceofremdry>
       <chanceofwindy>0</chanceofwindy>
-      <chanceofovercast>0</chanceofovercast>
-      <chanceofsunshine>85</chanceofsunshine>
+      <chanceofovercast>45</chanceofovercast>
+      <chanceofsunshine>79</chanceofsunshine>
       <chanceoffrost>0</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>1800</time>
+      <tempC>3</tempC>
+      <tempF>37</tempF>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>100</winddirDegree>
+      <winddir16Point>E</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>32</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1032</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>42</cloudcover>
+      <HeatIndexC>3</HeatIndexC>
+      <HeatIndexF>37</HeatIndexF>
+      <DewPointC>-12</DewPointC>
+      <DewPointF>10</DewPointF>
+      <WindChillC>3</WindChillC>
+      <WindChillF>37</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
+      <WindGustKmph>4</WindGustKmph>
+      <FeelsLikeC>3</FeelsLikeC>
+      <FeelsLikeF>37</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>87</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>43</chanceofovercast>
+      <chanceofsunshine>79</chanceofsunshine>
+      <chanceoffrost>3</chanceoffrost>
+      <chanceofhightemp>0</chanceofhightemp>
+      <chanceoffog>0</chanceoffog>
+      <chanceofsnow>0</chanceofsnow>
+      <chanceofthunder>0</chanceofthunder>
+      <uvIndex>1</uvIndex>
+    </hourly>
+    <hourly>
+      <time>2100</time>
+      <tempC>0</tempC>
+      <tempF>32</tempF>
+      <windspeedMiles>2</windspeedMiles>
+      <windspeedKmph>3</windspeedKmph>
+      <winddirDegree>59</winddirDegree>
+      <winddir16Point>ENE</winddir16Point>
+      <weatherCode>116</weatherCode>
+      <weatherIconUrl><![CDATA[http://cdn.worldweatheronline.net/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png]]></weatherIconUrl>
+      <weatherDesc><![CDATA[Partly cloudy]]></weatherDesc>
+      <precipMM>0.0</precipMM>
+      <precipInches>0.0</precipInches>
+      <humidity>33</humidity>
+      <visibility>10</visibility>
+      <visibilityMiles>6</visibilityMiles>
+      <pressure>1032</pressure>
+      <pressureInches>31</pressureInches>
+      <cloudcover>42</cloudcover>
+      <HeatIndexC>2</HeatIndexC>
+      <HeatIndexF>35</HeatIndexF>
+      <DewPointC>-12</DewPointC>
+      <DewPointF>10</DewPointF>
+      <WindChillC>0</WindChillC>
+      <WindChillF>32</WindChillF>
+      <WindGustMiles>2</WindGustMiles>
+      <WindGustKmph>3</WindGustKmph>
+      <FeelsLikeC>0</FeelsLikeC>
+      <FeelsLikeF>32</FeelsLikeF>
+      <chanceofrain>0</chanceofrain>
+      <chanceofremdry>84</chanceofremdry>
+      <chanceofwindy>0</chanceofwindy>
+      <chanceofovercast>45</chanceofovercast>
+      <chanceofsunshine>84</chanceofsunshine>
+      <chanceoffrost>7</chanceoffrost>
       <chanceofhightemp>0</chanceofhightemp>
       <chanceoffog>0</chanceoffog>
       <chanceofsnow>0</chanceofsnow>
@@ -1773,108 +1773,516 @@
       <name>January</name>
       <avgMinTemp>-7.9</avgMinTemp>
       <avgMinTemp_F>17.8</avgMinTemp_F>
-      <absMaxTemp>4.919355</absMaxTemp>
+      <avgMaxTemp>0.3</avgMaxTemp>
+      <avgMaxTemp_F>32.5</avgMaxTemp_F>
+      <absMinTemp>-11.8</absMinTemp>
+      <absMinTemp_F>10.8</absMinTemp_F>
+      <absMaxTemp>4.9</absMaxTemp>
       <absMaxTemp_F>40.9</absMaxTemp_F>
+      <avgTemp>-4.6</avgTemp>
+      <avgTemp_F>23.7</avgTemp_F>
+      <maxWindSpeed_kmph>9.5</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>5.9</maxWindSpeed_mph>
+      <maxWindSpeed_knots>5.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.6</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>9.1</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>5.7</avgWindSpeed_mph>
+      <avgWindSpeed_knots>4.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.5</avgWindSpeed_ms>
+      <avgWindGust_kmph>14.4</avgWindGust_kmph>
+      <avgWindGust_mph>9.0</avgWindGust_mph>
+      <avgWindGust_knots>7.0</avgWindGust_knots>
+      <avgWindGust_ms>4.0</avgWindGust_ms>
       <avgDailyRainfall>0.03</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.00</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>0.84</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.03</avgMonthlyRainfall_inch>
+      <avgHumidity>39.522793</avgHumidity>
+      <avgCloud>16.969526</avgCloud>
+      <avgVis_km>9.9</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1030.1</avgPressure_mb>
+      <avgPressure_inch>30.9</avgPressure_inch>
+      <avgDryDays>30</avgDryDays>
+      <avgRainDays>1</avgRainDays>
+      <avgSnowDays>1</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>0</avgThunderDays>
+      <avgUVIndex>2</avgUVIndex>
+      <avgSunHour>217.0</avgSunHour>
     </month>
     <month>
       <index>2</index>
       <name>February</name>
       <avgMinTemp>-4.7</avgMinTemp>
       <avgMinTemp_F>23.5</avgMinTemp_F>
-      <absMaxTemp>6.26725</absMaxTemp>
+      <avgMaxTemp>3.9</avgMaxTemp>
+      <avgMaxTemp_F>39.0</avgMaxTemp_F>
+      <absMinTemp>-7.1</absMinTemp>
+      <absMinTemp_F>19.2</absMinTemp_F>
+      <absMaxTemp>6.3</absMaxTemp>
       <absMaxTemp_F>43.3</absMaxTemp_F>
+      <avgTemp>-0.9</avgTemp>
+      <avgTemp_F>30.4</avgTemp_F>
+      <maxWindSpeed_kmph>9.4</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>5.8</maxWindSpeed_mph>
+      <maxWindSpeed_knots>5.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.6</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>9.1</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>5.6</avgWindSpeed_mph>
+      <avgWindSpeed_knots>4.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.5</avgWindSpeed_ms>
+      <avgWindGust_kmph>13.4</avgWindGust_kmph>
+      <avgWindGust_mph>8.3</avgWindGust_mph>
+      <avgWindGust_knots>7.0</avgWindGust_knots>
+      <avgWindGust_ms>3.7</avgWindGust_ms>
       <avgDailyRainfall>0.08</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.00</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>2.21</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.09</avgMonthlyRainfall_inch>
+      <avgHumidity>39.593487</avgHumidity>
+      <avgCloud>21.120659</avgCloud>
+      <avgVis_km>10.0</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1026.5</avgPressure_mb>
+      <avgPressure_inch>30.8</avgPressure_inch>
+      <avgDryDays>25</avgDryDays>
+      <avgRainDays>1</avgRainDays>
+      <avgSnowDays>2</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>0</avgThunderDays>
+      <avgUVIndex>2</avgUVIndex>
+      <avgSunHour>202.6</avgSunHour>
     </month>
     <month>
       <index>3</index>
       <name>March</name>
       <avgMinTemp>1.8</avgMinTemp>
       <avgMinTemp_F>35.3</avgMinTemp_F>
-      <absMaxTemp>16.883871</absMaxTemp>
+      <avgMaxTemp>12.2</avgMaxTemp>
+      <avgMaxTemp_F>53.9</avgMaxTemp_F>
+      <absMinTemp>-2.6</absMinTemp>
+      <absMinTemp_F>27.4</absMinTemp_F>
+      <absMaxTemp>16.9</absMaxTemp>
       <absMaxTemp_F>62.4</absMaxTemp_F>
+      <avgTemp>6.9</avgTemp>
+      <avgTemp_F>44.4</avgTemp_F>
+      <maxWindSpeed_kmph>10.6</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>6.6</maxWindSpeed_mph>
+      <maxWindSpeed_knots>5.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>3.0</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>10.1</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>6.3</avgWindSpeed_mph>
+      <avgWindSpeed_knots>5.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.8</avgWindSpeed_ms>
+      <avgWindGust_kmph>14.4</avgWindGust_kmph>
+      <avgWindGust_mph>9.0</avgWindGust_mph>
+      <avgWindGust_knots>7.0</avgWindGust_knots>
+      <avgWindGust_ms>4.0</avgWindGust_ms>
       <avgDailyRainfall>0.10</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.00</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>2.98</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.12</avgMonthlyRainfall_inch>
+      <avgHumidity>32.10372</avgHumidity>
+      <avgCloud>20.202589</avgCloud>
+      <avgVis_km>10.0</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1021.1</avgPressure_mb>
+      <avgPressure_inch>30.6</avgPressure_inch>
+      <avgDryDays>27</avgDryDays>
+      <avgRainDays>4</avgRainDays>
+      <avgSnowDays>1</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>0</avgThunderDays>
+      <avgUVIndex>4</avgUVIndex>
+      <avgSunHour>282.9</avgSunHour>
     </month>
     <month>
       <index>4</index>
       <name>April</name>
       <avgMinTemp>8.2</avgMinTemp>
       <avgMinTemp_F>46.8</avgMinTemp_F>
-      <absMaxTemp>22.8324</absMaxTemp>
+      <avgMaxTemp>20.4</avgMaxTemp>
+      <avgMaxTemp_F>68.8</avgMaxTemp_F>
+      <absMinTemp>2.8</absMinTemp>
+      <absMinTemp_F>37.0</absMinTemp_F>
+      <absMaxTemp>22.8</absMaxTemp>
       <absMaxTemp_F>73.1</absMaxTemp_F>
+      <avgTemp>14.5</avgTemp>
+      <avgTemp_F>58.0</avgTemp_F>
+      <maxWindSpeed_kmph>11.2</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>7.0</maxWindSpeed_mph>
+      <maxWindSpeed_knots>6.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>3.1</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>10.7</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>6.6</avgWindSpeed_mph>
+      <avgWindSpeed_knots>5.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>3.0</avgWindSpeed_ms>
+      <avgWindGust_kmph>15.2</avgWindGust_kmph>
+      <avgWindGust_mph>9.4</avgWindGust_mph>
+      <avgWindGust_knots>8.0</avgWindGust_knots>
+      <avgWindGust_ms>4.2</avgWindGust_ms>
       <avgDailyRainfall>0.38</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.01</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>11.30</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.45</avgMonthlyRainfall_inch>
+      <avgHumidity>34.736813</avgHumidity>
+      <avgCloud>19.924143</avgCloud>
+      <avgVis_km>9.9</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1014.5</avgPressure_mb>
+      <avgPressure_inch>30.4</avgPressure_inch>
+      <avgDryDays>23</avgDryDays>
+      <avgRainDays>6</avgRainDays>
+      <avgSnowDays>0</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>1</avgThunderDays>
+      <avgUVIndex>5</avgUVIndex>
+      <avgSunHour>340.2</avgSunHour>
     </month>
     <month>
       <index>5</index>
       <name>May</name>
       <avgMinTemp>14.3</avgMinTemp>
       <avgMinTemp_F>57.7</avgMinTemp_F>
-      <absMaxTemp>31.81613</absMaxTemp>
+      <avgMaxTemp>27.5</avgMaxTemp>
+      <avgMaxTemp_F>81.5</avgMaxTemp_F>
+      <absMinTemp>11.6</absMinTemp>
+      <absMinTemp_F>52.9</absMinTemp_F>
+      <absMaxTemp>31.8</absMaxTemp>
       <absMaxTemp_F>89.3</absMaxTemp_F>
+      <avgTemp>21.1</avgTemp>
+      <avgTemp_F>70.1</avgTemp_F>
+      <maxWindSpeed_kmph>11.0</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>6.8</maxWindSpeed_mph>
+      <maxWindSpeed_knots>5.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>3.0</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>10.3</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>6.4</avgWindSpeed_mph>
+      <avgWindSpeed_knots>5.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.9</avgWindSpeed_ms>
+      <avgWindGust_kmph>15.0</avgWindGust_kmph>
+      <avgWindGust_mph>9.3</avgWindGust_mph>
+      <avgWindGust_knots>8.0</avgWindGust_knots>
+      <avgWindGust_ms>4.2</avgWindGust_ms>
       <avgDailyRainfall>0.49</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.02</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>15.24</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.60</avgMonthlyRainfall_inch>
+      <avgHumidity>36.17453</avgHumidity>
+      <avgCloud>20.05708</avgCloud>
+      <avgVis_km>9.9</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1009.4</avgPressure_mb>
+      <avgPressure_inch>30.3</avgPressure_inch>
+      <avgDryDays>22</avgDryDays>
+      <avgRainDays>8</avgRainDays>
+      <avgSnowDays>0</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>1</avgThunderDays>
+      <avgUVIndex>6</avgUVIndex>
+      <avgSunHour>350.1</avgSunHour>
     </month>
     <month>
       <index>6</index>
       <name>June</name>
       <avgMinTemp>18.9</avgMinTemp>
       <avgMinTemp_F>66.0</avgMinTemp_F>
-      <absMaxTemp>35.376667</absMaxTemp>
+      <avgMaxTemp>31.2</avgMaxTemp>
+      <avgMaxTemp_F>88.2</avgMaxTemp_F>
+      <absMinTemp>15.6</absMinTemp>
+      <absMinTemp_F>60.1</absMinTemp_F>
+      <absMaxTemp>35.4</absMaxTemp>
       <absMaxTemp_F>95.7</absMaxTemp_F>
+      <avgTemp>25.2</avgTemp>
+      <avgTemp_F>77.4</avgTemp_F>
+      <maxWindSpeed_kmph>8.6</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>5.3</maxWindSpeed_mph>
+      <maxWindSpeed_knots>4.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.4</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>8.0</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>5.0</avgWindSpeed_mph>
+      <avgWindSpeed_knots>4.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.2</avgWindSpeed_ms>
+      <avgWindGust_kmph>11.4</avgWindGust_kmph>
+      <avgWindGust_mph>7.1</avgWindGust_mph>
+      <avgWindGust_knots>6.0</avgWindGust_knots>
+      <avgWindGust_ms>3.2</avgWindGust_ms>
       <avgDailyRainfall>0.91</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.04</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>27.17</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>1.07</avgMonthlyRainfall_inch>
+      <avgHumidity>47.608368</avgHumidity>
+      <avgCloud>22.75808</avgCloud>
+      <avgVis_km>10.0</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1005.5</avgPressure_mb>
+      <avgPressure_inch>30.2</avgPressure_inch>
+      <avgDryDays>17</avgDryDays>
+      <avgRainDays>11</avgRainDays>
+      <avgSnowDays>0</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>2</avgThunderDays>
+      <avgUVIndex>7</avgUVIndex>
+      <avgSunHour>337.1</avgSunHour>
     </month>
     <month>
       <index>7</index>
       <name>July</name>
       <avgMinTemp>21.5</avgMinTemp>
       <avgMinTemp_F>70.7</avgMinTemp_F>
-      <absMaxTemp>36.79032</absMaxTemp>
+      <avgMaxTemp>32.4</avgMaxTemp>
+      <avgMaxTemp_F>90.3</avgMaxTemp_F>
+      <absMinTemp>19.5</absMinTemp>
+      <absMinTemp_F>67.1</absMinTemp_F>
+      <absMaxTemp>36.8</absMaxTemp>
       <absMaxTemp_F>98.2</absMaxTemp_F>
+      <avgTemp>27.0</avgTemp>
+      <avgTemp_F>80.7</avgTemp_F>
+      <maxWindSpeed_kmph>7.6</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>4.7</maxWindSpeed_mph>
+      <maxWindSpeed_knots>4.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.1</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>7.1</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>4.4</avgWindSpeed_mph>
+      <avgWindSpeed_knots>3.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.0</avgWindSpeed_ms>
+      <avgWindGust_kmph>10.2</avgWindGust_kmph>
+      <avgWindGust_mph>6.4</avgWindGust_mph>
+      <avgWindGust_knots>5.0</avgWindGust_knots>
+      <avgWindGust_ms>2.8</avgWindGust_ms>
       <avgDailyRainfall>1.90</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.07</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>59.04</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>2.32</avgMonthlyRainfall_inch>
+      <avgHumidity>60.778114</avgHumidity>
+      <avgCloud>27.417448</avgCloud>
+      <avgVis_km>9.6</avgVis_km>
+      <avgVis_miles>5.0</avgVis_miles>
+      <avgPressure_mb>1004.8</avgPressure_mb>
+      <avgPressure_inch>30.1</avgPressure_inch>
+      <avgDryDays>15</avgDryDays>
+      <avgRainDays>14</avgRainDays>
+      <avgSnowDays>0</avgSnowDays>
+      <avgFogDays>1</avgFogDays>
+      <avgThunderDays>3</avgThunderDays>
+      <avgUVIndex>7</avgUVIndex>
+      <avgSunHour>336.9</avgSunHour>
     </month>
     <month>
       <index>8</index>
       <name>August</name>
       <avgMinTemp>19.8</avgMinTemp>
       <avgMinTemp_F>67.7</avgMinTemp_F>
-      <absMaxTemp>33.248386</absMaxTemp>
+      <avgMaxTemp>30.8</avgMaxTemp>
+      <avgMaxTemp_F>87.4</avgMaxTemp_F>
+      <absMinTemp>17.2</absMinTemp>
+      <absMinTemp_F>62.9</absMinTemp_F>
+      <absMaxTemp>33.2</absMaxTemp>
       <absMaxTemp_F>91.8</absMaxTemp_F>
+      <avgTemp>25.2</avgTemp>
+      <avgTemp_F>77.4</avgTemp_F>
+      <maxWindSpeed_kmph>7.5</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>4.7</maxWindSpeed_mph>
+      <maxWindSpeed_knots>4.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.1</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>6.9</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>4.3</avgWindSpeed_mph>
+      <avgWindSpeed_knots>3.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>1.9</avgWindSpeed_ms>
+      <avgWindGust_kmph>10.1</avgWindGust_kmph>
+      <avgWindGust_mph>6.3</avgWindGust_mph>
+      <avgWindGust_knots>5.0</avgWindGust_knots>
+      <avgWindGust_ms>2.8</avgWindGust_ms>
       <avgDailyRainfall>1.56</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.06</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>48.21</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>1.90</avgMonthlyRainfall_inch>
+      <avgHumidity>64.59117</avgHumidity>
+      <avgCloud>25.23833</avgCloud>
+      <avgVis_km>9.4</avgVis_km>
+      <avgVis_miles>5.0</avgVis_miles>
+      <avgPressure_mb>1008.4</avgPressure_mb>
+      <avgPressure_inch>30.3</avgPressure_inch>
+      <avgDryDays>17</avgDryDays>
+      <avgRainDays>12</avgRainDays>
+      <avgSnowDays>0</avgSnowDays>
+      <avgFogDays>2</avgFogDays>
+      <avgThunderDays>2</avgThunderDays>
+      <avgUVIndex>6</avgUVIndex>
+      <avgSunHour>342.3</avgSunHour>
     </month>
     <month>
       <index>9</index>
       <name>September</name>
       <avgMinTemp>14.8</avgMinTemp>
       <avgMinTemp_F>58.6</avgMinTemp_F>
-      <absMaxTemp>32.123333</absMaxTemp>
+      <avgMaxTemp>25.8</avgMaxTemp>
+      <avgMaxTemp_F>78.5</avgMaxTemp_F>
+      <absMinTemp>11.9</absMinTemp>
+      <absMinTemp_F>53.4</absMinTemp_F>
+      <absMaxTemp>32.1</absMaxTemp>
       <absMaxTemp_F>89.8</absMaxTemp_F>
+      <avgTemp>20.2</avgTemp>
+      <avgTemp_F>68.3</avgTemp_F>
+      <maxWindSpeed_kmph>7.6</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>4.7</maxWindSpeed_mph>
+      <maxWindSpeed_knots>4.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.1</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>7.2</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>4.4</avgWindSpeed_mph>
+      <avgWindSpeed_knots>3.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.0</avgWindSpeed_ms>
+      <avgWindGust_kmph>10.6</avgWindGust_kmph>
+      <avgWindGust_mph>6.6</avgWindGust_mph>
+      <avgWindGust_knots>5.0</avgWindGust_knots>
+      <avgWindGust_ms>2.9</avgWindGust_ms>
       <avgDailyRainfall>1.02</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.04</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>30.49</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>1.20</avgMonthlyRainfall_inch>
+      <avgHumidity>57.102085</avgHumidity>
+      <avgCloud>22.048326</avgCloud>
+      <avgVis_km>9.5</avgVis_km>
+      <avgVis_miles>5.0</avgVis_miles>
+      <avgPressure_mb>1015.1</avgPressure_mb>
+      <avgPressure_inch>30.5</avgPressure_inch>
+      <avgDryDays>21</avgDryDays>
+      <avgRainDays>7</avgRainDays>
+      <avgSnowDays>0</avgSnowDays>
+      <avgFogDays>2</avgFogDays>
+      <avgThunderDays>1</avgThunderDays>
+      <avgUVIndex>5</avgUVIndex>
+      <avgSunHour>304.1</avgSunHour>
     </month>
     <month>
       <index>10</index>
       <name>October</name>
       <avgMinTemp>9.4</avgMinTemp>
       <avgMinTemp_F>49.0</avgMinTemp_F>
-      <absMaxTemp>21.909678</absMaxTemp>
+      <avgMaxTemp>18.8</avgMaxTemp>
+      <avgMaxTemp_F>65.9</avgMaxTemp_F>
+      <absMinTemp>6.3</absMinTemp>
+      <absMinTemp_F>43.4</absMinTemp_F>
+      <absMaxTemp>21.9</absMaxTemp>
       <absMaxTemp_F>71.4</absMaxTemp_F>
+      <avgTemp>13.9</avgTemp>
+      <avgTemp_F>56.9</avgTemp_F>
+      <maxWindSpeed_kmph>8.8</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>5.5</maxWindSpeed_mph>
+      <maxWindSpeed_knots>4.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.4</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>7.8</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>4.9</avgWindSpeed_mph>
+      <avgWindSpeed_knots>4.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.2</avgWindSpeed_ms>
+      <avgWindGust_kmph>11.4</avgWindGust_kmph>
+      <avgWindGust_mph>7.1</avgWindGust_mph>
+      <avgWindGust_knots>6.0</avgWindGust_knots>
+      <avgWindGust_ms>3.2</avgWindGust_ms>
       <avgDailyRainfall>0.40</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.02</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>12.34</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.49</avgMonthlyRainfall_inch>
+      <avgHumidity>46.876923</avgHumidity>
+      <avgCloud>19.023046</avgCloud>
+      <avgVis_km>9.9</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1021.1</avgPressure_mb>
+      <avgPressure_inch>30.6</avgPressure_inch>
+      <avgDryDays>25</avgDryDays>
+      <avgRainDays>4</avgRainDays>
+      <avgSnowDays>0</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>0</avgThunderDays>
+      <avgUVIndex>4</avgUVIndex>
+      <avgSunHour>213.2</avgSunHour>
     </month>
     <month>
       <index>11</index>
       <name>November</name>
       <avgMinTemp>1.1</avgMinTemp>
       <avgMinTemp_F>34.1</avgMinTemp_F>
-      <absMaxTemp>13.926666</absMaxTemp>
+      <avgMaxTemp>9.1</avgMaxTemp>
+      <avgMaxTemp_F>48.4</avgMaxTemp_F>
+      <absMinTemp>-3.3</absMinTemp>
+      <absMinTemp_F>26.0</absMinTemp_F>
+      <absMaxTemp>13.9</absMaxTemp>
       <absMaxTemp_F>57.1</absMaxTemp_F>
+      <avgTemp>4.6</avgTemp>
+      <avgTemp_F>40.3</avgTemp_F>
+      <maxWindSpeed_kmph>8.9</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>5.5</maxWindSpeed_mph>
+      <maxWindSpeed_knots>4.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.5</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>8.1</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>5.0</avgWindSpeed_mph>
+      <avgWindSpeed_knots>4.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.2</avgWindSpeed_ms>
+      <avgWindGust_kmph>12.1</avgWindGust_kmph>
+      <avgWindGust_mph>7.5</avgWindGust_mph>
+      <avgWindGust_knots>6.0</avgWindGust_knots>
+      <avgWindGust_ms>3.4</avgWindGust_ms>
       <avgDailyRainfall>0.31</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.01</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>9.28</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.37</avgMonthlyRainfall_inch>
+      <avgHumidity>43.81474</avgHumidity>
+      <avgCloud>22.133137</avgCloud>
+      <avgVis_km>9.8</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1025.1</avgPressure_mb>
+      <avgPressure_inch>30.8</avgPressure_inch>
+      <avgDryDays>26</avgDryDays>
+      <avgRainDays>3</avgRainDays>
+      <avgSnowDays>1</avgSnowDays>
+      <avgFogDays>0</avgFogDays>
+      <avgThunderDays>0</avgThunderDays>
+      <avgUVIndex>2</avgUVIndex>
+      <avgSunHour>202.5</avgSunHour>
     </month>
     <month>
       <index>12</index>
       <name>December</name>
       <avgMinTemp>-5.7</avgMinTemp>
       <avgMinTemp_F>21.7</avgMinTemp_F>
-      <absMaxTemp>4.0644193</absMaxTemp>
+      <avgMaxTemp>1.8</avgMaxTemp>
+      <avgMaxTemp_F>35.2</avgMaxTemp_F>
+      <absMinTemp>-11.3</absMinTemp>
+      <absMinTemp_F>11.7</absMinTemp_F>
+      <absMaxTemp>4.1</absMaxTemp>
       <absMaxTemp_F>39.3</absMaxTemp_F>
+      <avgTemp>-2.8</avgTemp>
+      <avgTemp_F>26.9</avgTemp_F>
+      <maxWindSpeed_kmph>9.6</maxWindSpeed_kmph>
+      <maxWindSpeed_mph>6.0</maxWindSpeed_mph>
+      <maxWindSpeed_knots>5.0</maxWindSpeed_knots>
+      <maxWindSpeed_ms>2.7</maxWindSpeed_ms>
+      <avgWindSpeed_kmph>9.1</avgWindSpeed_kmph>
+      <avgWindSpeed_mph>5.7</avgWindSpeed_mph>
+      <avgWindSpeed_knots>4.0</avgWindSpeed_knots>
+      <avgWindSpeed_ms>2.5</avgWindSpeed_ms>
+      <avgWindGust_kmph>14.4</avgWindGust_kmph>
+      <avgWindGust_mph>8.9</avgWindGust_mph>
+      <avgWindGust_knots>7.0</avgWindGust_knots>
+      <avgWindGust_ms>4.0</avgWindGust_ms>
       <avgDailyRainfall>0.02</avgDailyRainfall>
+      <avgDailyRainfall_inch>0.00</avgDailyRainfall_inch>
+      <avgMonthlyRainfall>0.67</avgMonthlyRainfall>
+      <avgMonthlyRainfall_inch>0.03</avgMonthlyRainfall_inch>
+      <avgHumidity>38.611702</avgHumidity>
+      <avgCloud>18.161598</avgCloud>
+      <avgVis_km>10.0</avgVis_km>
+      <avgVis_miles>6.0</avgVis_miles>
+      <avgPressure_mb>1028.7</avgPressure_mb>
+      <avgPressure_inch>30.9</avgPressure_inch>
+      <avgDryDays>30</avgDryDays>
+      <avgRainDays>1</avgRainDays>
+      <avgSnowDays>1</avgSnowDays>
+      <avgFogDays>1</avgFogDays>
+      <avgThunderDays>0</avgThunderDays>
+      <avgUVIndex>2</avgUVIndex>
+      <avgSunHour>212.1</avgSunHour>
     </month>
   </ClimateAverages>
 </data>
