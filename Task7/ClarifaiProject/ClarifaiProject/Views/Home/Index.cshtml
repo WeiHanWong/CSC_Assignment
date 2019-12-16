@@ -6,7 +6,7 @@
     <div class="row inputForm">
         <div class="col-sm-12">
             <h1>Submit Web image</h1>
-            <form id="dataForm" name="dataForm" role="form" class="form-horizontal">
+            <form id="dataForm" name="dataForm" role="form" >
                 <div class="form-group">
                     <input class="form-control" type="text" id="imageUrl" name="imageUrl" value="https://samples.clarifai.com/metro-north.jpg" />
                 </div>
@@ -17,9 +17,10 @@
             <br/>
             <br/>
             <h1>Submit Local image</h1>
-            <form id="dataForm1" name="dataForm1" role="form" class="form-horizontal" enctype="multipart/form-data">
+            <form id="dataForm1" name="dataForm1" role="form" enctype="multipart/form-data">
                 <div class="form-group file-upload-wrapper" data-height="500">
-                    <input class="form-control file-upload" type="file" id="pic" name="pic" accept="image/*" onchange="readURL(this);" data-height="500">
+                    <p>Drag and Drop your Image</p>
+                    <input class="form-control file-upload" type="file" id="pic" name="pic" accept="image/*" onchange="readURL(this);" data-height="500" style="height:100px">
                 </div>
                 <div class="form-group">
                     <input id="uploadBtn" type="button" class="btn btn-primary" value="Upload" />
