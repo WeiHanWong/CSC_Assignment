@@ -1,0 +1,162 @@
+﻿@{
+    ViewData["Title"] = "Clarifai";
+}
+
+<div class="container app">
+    <div class="row inputForm">
+        <div class="col-sm-12">
+            <h1>Submit Web image</h1>
+            <form id="dataForm" name="dataForm" role="form" class="form-horizontal">
+                <div class="form-group">
+                    <input class="form-control" type="text" id="imageUrl" name="imageUrl" value="https://samples.clarifai.com/metro-north.jpg" />
+                </div>
+                <div class="form-group">
+                    <input id="submitBtn" type="button" class="btn btn-primary" value="Submit" />
+                </div>
+            </form>
+            <br/>
+            <br/>
+            <h1>Submit Local image</h1>
+            <form id="dataForm1" name="dataForm1" role="form" class="form-horizontal" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input class="form-control" type="file" id="pic" name="pic" accept="image/*" onchange="readURL(this);">
+                </div>
+                <div class="form-group">
+                    <input id="uploadBtn" type="button" class="btn btn-primary" value="Upload" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row imagePreview">
+        <div class="col-sm-12">
+            <h2>Image preview</h2>
+            <img class="img-responsive" id="image" src="" alt="">
+        </div>
+    </div>
+
+    <div class="row tags-container" style="display: none;">
+        <div class="col-sm-12">
+            <h1><span class="label label-primary">Tag</span></h1>
+            <p>It will take a while for the tags to load.</p>
+            <div class="well well-lg">
+                <div class="row ">
+                    <div class="col-sm-12 tags">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Tag</th>
+                                    <th>Confidence</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tagBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        function WebFormData(inUrl) {
+            this.sendUrl = inUrl;
+        }
+
+        var targetImg = null;
+
+        function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                targetImg = e.target.result
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+        $('#uploadBtn').on('click', function () {
+            $(".tags-container").show()
+            $("#tagBody").empty();
+            $('#image').attr('src', targetImg);
+            var file_data = $('#pic').prop('files')[0];
+            var form_data = new FormData();
+            form_data.append('file', file_data);
+            $.ajax({
+                url: '/Api/Clarifai/GetTagsUpload',
+                dataType: 'json',
+                cache: false,
+                contentType: false,
+                processData: false,
+                data: form_data,
+                type: 'post',
+                success: function (data) {
+                    $tableBodyElement = $('#tagBody');
+                    for (index = 0; index < data.taglist.length; index++) {
+                        tag = data.taglist[index]
+                        console.log(tag)
+                        confidence = data.confidencelist[index]
+                        $rowElement = $('<tr></tr>')
+                        $cellElement = $('<td></td>', { text: tag });
+                        $rowElement.append($cellElement);
+                        $cellElement = $('<td></td>', { text: confidence });
+                        $rowElement.append($cellElement);
+                        $tableBodyElement.append($rowElement);
+                    }
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#submitBtn").on("click", function () {
+            if ($("#imageUrl").val().length > 0) {
+                $(".tags-container").show()
+
+                $("#tagBody").empty();
+
+                var url = $("#imageUrl").val()
+                $("#image").attr("src", url)
+
+                var webFormData = new WebFormData(url);
+
+                var webFormDataInString = JSON.stringify(webFormData);
+
+                var $loadTagsHandler = jQuery.ajax({
+                    type: 'POST',
+                    url: '/Api/Clarifai/GetTags',
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    data: "'" + webFormDataInString + "'"
+                });
+
+                var tag = '';
+                var confidence = '';
+
+                $loadTagsHandler.done(function (data, textStatus, jqXHR) {
+                    $tableBodyElement = $('#tagBody');
+                    for (index = 0; index < data.taglist.length; index++) {
+                        tag = data.taglist[index]
+                        console.log(tag)
+                        confidence = data.confidencelist[index]
+                        $rowElement = $('<tr></tr>')
+                        $cellElement = $('<td></td>', { text: tag });
+                        $rowElement.append($cellElement);
+                        $cellElement = $('<td></td>', { text: confidence });
+                        $rowElement.append($cellElement);
+                        $tableBodyElement.append($rowElement);
+                    }
+                });
+
+                $loadTagsHandler.fail(function (data, textStatus, jqXHR) {
+                    console.log(textStatus);
+                    console.log(data);
+                    console.log(jqXHR);
+                });
+            }
+        })
+    </script>
+}

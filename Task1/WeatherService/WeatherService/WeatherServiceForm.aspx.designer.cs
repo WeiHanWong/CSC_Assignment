@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WeatherService {
-    
-    
-    public partial class WeatherServiceForm {
+namespace WeatherService
+{
+
+
+    public partial class WeatherServiceForm
+    {
     }
 }
