@@ -124,7 +124,6 @@ C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\bin\System.
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\obj\Debug\WebAPI2.csprojAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\obj\Debug\WebAPI2.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\obj\Debug\WebAPI2.csproj.CopyComplete
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\obj\Debug\WebAPI2.dll
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task2\WebAPI2\WebAPI2\obj\Debug\WebAPI2.pdb
