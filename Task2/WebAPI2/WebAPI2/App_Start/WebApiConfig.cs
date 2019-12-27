@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using WebAPI2.Filters;
 
 namespace WebAPI2
 {
@@ -15,6 +16,8 @@ namespace WebAPI2
             config.MapHttpAttributeRoutes();
 
             config.EnableCors();
+
+            config.Filters.Add(new ValidateModelAttribute());
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

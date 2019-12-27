@@ -166,6 +166,7 @@
     <Compile Include="Controllers\ProductsV2Controller.cs" />
     <Compile Include="Controllers\ProductsV3Controller.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Filters\ValidateModelAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

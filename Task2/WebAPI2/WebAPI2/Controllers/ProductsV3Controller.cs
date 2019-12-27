@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebAPI2.Filters;
 using WebAPI2.Models;
 
 namespace WebAPI2.Controllers
@@ -64,8 +65,10 @@ namespace WebAPI2.Controllers
         //But according to the HTTP/1.1 protocol, when a POST request results in the creation of a resource, the server should reply with status 201 (Created).
         //Location: When the server creates a resource, it should include the URI of the new resource in the Location header of the response.
 
+
         [HttpPost]
         [Route("api/v3/products")]
+        //[ValidateModel]                 //Alternative Model Validation
         public HttpResponseMessage PostProduct(Product item)
         {
             if (ModelState.IsValid)
