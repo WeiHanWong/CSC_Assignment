@@ -124,7 +124,6 @@ C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\b
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\obj\Debug\ProductStore.csprojAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\obj\Debug\ProductStore.csproj.CopyComplete
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\obj\Debug\ProductStore.dll
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task4\ProductStore\ProductStore\obj\Debug\ProductStore.pdb

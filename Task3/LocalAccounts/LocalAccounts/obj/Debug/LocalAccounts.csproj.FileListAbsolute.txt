@@ -107,7 +107,6 @@ C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts\bin\System.Web.Http.Owin.xml
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts\obj\Debug\LocalAccounts.csprojAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts\obj\Debug\LocalAccounts.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts\obj\Debug\LocalAccounts.csproj.CopyComplete
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts\obj\Debug\LocalAccounts.dll
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task3\LocalAccounts\LocalAccounts\obj\Debug\LocalAccounts.pdb

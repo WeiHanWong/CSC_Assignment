@@ -13,7 +13,7 @@ namespace ProductStore.Controllers
     {
         static readonly TalentRepository repository = new TalentRepository();
 
-        [EnableCors(origins: "*", headers: "*", methods: "*")]
+        [EnableCors(origins: "*", headers: "POST, PUT, DELETE, GET, OPTIONS", methods: "content-Type, accept, origin, X-Requested-With, Authorization, name")]
         [Route("api/talents")]
         public IEnumerable<Talent> GetAllTalents()
         {
