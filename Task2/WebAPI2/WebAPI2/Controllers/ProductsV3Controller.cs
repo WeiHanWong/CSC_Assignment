@@ -1,8 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using System.Web.Http;
 using WebAPI2.Filters;
 using WebAPI2.Models;
@@ -38,14 +43,18 @@ namespace WebAPI2.Controllers
         [HttpGet]
         [Route("api/v3/products/{id:int:min(2)}", Name = "getProductByIdv3")]
 
-        public Product retrieveProductfromRepository(int id)
+        public HttpResponseMessage retrieveProductfromRepository(int id)
         {
             Product item = repository.Get(id);
             if (item == null)
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
+                errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
+                return errResponse;
             }
-            return item;
+            var response = Request.CreateResponse(HttpStatusCode.OK);
+            response.Content = new StringContent(JsonConvert.SerializeObject(item), System.Text.Encoding.UTF8, "application/json");
+            return response;
         }
 
 
@@ -65,45 +74,79 @@ namespace WebAPI2.Controllers
         //But according to the HTTP/1.1 protocol, when a POST request results in the creation of a resource, the server should reply with status 201 (Created).
         //Location: When the server creates a resource, it should include the URI of the new resource in the Location header of the response.
 
+        //[HttpPost]
+        //[Route("api/v3/products")]
+        //public HttpResponseMessage PostProduct(Product item)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        item = repository.Add(item);
+        //        var response = Request.CreateResponse<Product>(HttpStatusCode.Created, item);
+
+        //        // Generate a link to the new product and set the Location header in the response.
+
+        //        string uri = Url.Link("getProductByIdv3", new { id = item.Id });
+        //        response.Headers.Location = new Uri(uri);
+        //        return response;
+        //    }
+        //    else
+        //    {
+        //        return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
+        //    }
+        //}
 
         [HttpPost]
         [Route("api/v3/products")]
-        //[ValidateModel]                 //Alternative Model Validation
+        [ValidateModel]               
         public HttpResponseMessage PostProduct(Product item)
         {
-            if (ModelState.IsValid)
-            {
-                item = repository.Add(item);
-                var response = Request.CreateResponse<Product>(HttpStatusCode.Created, item);
+            item = repository.Add(item);
+            var response = Request.CreateResponse<Product>(HttpStatusCode.Created, item);
 
-                // Generate a link to the new product and set the Location header in the response.
+            // Generate a link to the new product and set the Location header in the response.
 
-                string uri = Url.Link("getProductByIdv3", new { id = item.Id });
-                response.Headers.Location = new Uri(uri);
-                return response;
-            }
-            else
-            {
-                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
-            }
+            string uri = Url.Link("getProductByIdv3", new { id = item.Id });
+            response.Headers.Location = new Uri(uri);
+            return response;
         }
 
         [HttpPut]
         [Route("api/v3/products/{id:int}")]
-        public void PutProduct(int id, Product product)
+        [ValidateModel]
+        public HttpResponseMessage PutProduct(int id, Product product)
         {
             product.Id = id;
             if (!repository.Update(product))
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
+                errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
+                return errResponse;
             }
+
+            //Demo Purpose
+            var response = Request.CreateResponse<Product>(HttpStatusCode.OK, product);
+
+            string uri = Url.Link("getProductById", new { id = id });
+            response.Headers.Location = new Uri(uri);
+            return response;
         }
 
         [HttpDelete]
         [Route("api/v3/products/{id:int}")]
-        public void DeleteProduct(int id)
+        public HttpResponseMessage DeleteProduct(int id)
         {
+            Product item = repository.Get(id);
+            if (item == null)
+            {
+                var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
+                errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
+                return errResponse;
+            }
             repository.Remove(id);
+            //Demo Purpose
+            var response = Request.CreateResponse(HttpStatusCode.OK);
+            response.Content = new StringContent(JsonConvert.SerializeObject(repository.GetAll()), System.Text.Encoding.UTF8, "application/json");
+            return response;
         }
 
     }

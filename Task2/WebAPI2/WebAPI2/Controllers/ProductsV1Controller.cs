@@ -35,8 +35,8 @@ namespace WebAPI2.Controllers
             {
                 return new string[]
                   {"hello",
-                  "version 2",
-                  "2"
+                  "version 1",
+                  "1"
                   };
             }
 

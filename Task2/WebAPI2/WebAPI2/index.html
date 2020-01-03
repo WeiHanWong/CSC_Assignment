@@ -7,6 +7,7 @@
 
     <div>
         <h2>All Products</h2>
+        <img id="loading-image" src="ajax-loader.gif" style="display:none;" />
         <ul id="products" />
     </div>
     <div>
@@ -24,15 +25,37 @@
 
     $(document).ready(function () {
       // Send an AJAX request
-      $.getJSON(uri)
-          .done(function (data) {
-            // On success, 'data' contains a list of products.
-            $.each(data, function (key, item) {
-              // Add a list item for the product.
-              $('<li>', { text: formatItem(item) }).appendTo($('#products'));
-            });
-          });
+      //$.getJSON(uri)
+      //    .done(function (data) {
+      //      // On success, 'data' contains a list of products.
+      //      $.each(data, function (key, item) {
+      //        // Add a list item for the product.
+      //        $('<li>', { text: formatItem(item) }).appendTo($('#products'));
+      //      });
+      //    });
+
+        //simulate latency
+        setTimeout(ajaxCall(), 2000);
     });
+
+    function ajaxCall() {
+        $.ajax({
+            type: "GET",
+            url: uri,
+            beforeSend: function () {
+
+                $("#loading-image").show();
+            },
+            success: function (data) {
+
+                $.each(data, function (key, item) {
+                  $('<li>', { text: formatItem(item) }).appendTo($('#products'));
+                });
+
+                $("#loading-image").hide();
+            }
+        });
+    }
 
     function formatItem(item) {
       return item.Name + ': $' + item.Price;

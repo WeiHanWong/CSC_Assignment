@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -22,14 +23,18 @@ namespace WebAPI2.Controllers
 
         [HttpGet]
         [Route("api/v2/products/{id:int:min(1)}", Name = "getProductById")]
-        public Product GetProduct(int id)
+        public HttpResponseMessage GetProduct(int id)
         {
             Product item = repository.Get(id);
             if (item == null)
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
+                errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
+                return errResponse;
             }
-            return item;
+            var response = Request.CreateResponse(HttpStatusCode.OK);
+            response.Content = new StringContent(JsonConvert.SerializeObject(item), System.Text.Encoding.UTF8, "application/json");
+            return response;
         }
 
         [HttpGet]
@@ -54,30 +59,40 @@ namespace WebAPI2.Controllers
 
         [HttpPut]
         [Route("api/v2/products/{id:int}")]
-        public void PutProduct(int id, Product product)
+        public HttpResponseMessage PutProduct(int id, Product product)
         {
             product.Id = id;
             if (!repository.Update(product))
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
+                errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
+                return errResponse;
             }
 
-            ////Demo Purpose
-            //var response = Request.CreateResponse<Product>(HttpStatusCode.OK, product);
+            //Demo Purpose
+            var response = Request.CreateResponse<Product>(HttpStatusCode.OK, product);
 
-            //string uri = Url.Link("getProductById", new { id = id });
-            //response.Headers.Location = new Uri(uri);
-            //return response;
+            string uri = Url.Link("getProductById", new { id = id });
+            response.Headers.Location = new Uri(uri);
+            return response;
         }
 
         [HttpDelete]
         [Route("api/v2/products/{id:int}")]
-        public void DeleteProduct(int id)
+        public HttpResponseMessage DeleteProduct(int id)
         {
+            Product item = repository.Get(id);
+            if (item == null)
+            {
+                var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
+                errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
+                return errResponse;
+            }
             repository.Remove(id);
-            
-            ////Demo Purpose
-            //return repository.GetAll();
+            //Demo Purpose
+            var response = Request.CreateResponse(HttpStatusCode.OK);
+            response.Content = new StringContent(JsonConvert.SerializeObject(repository.GetAll()), System.Text.Encoding.UTF8, "application/json");
+            return response;
         }
     }
 }
