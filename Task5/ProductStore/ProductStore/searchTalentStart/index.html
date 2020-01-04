@@ -1,18 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8" />
-	<title>Live Search</title>
-	<link rel="stylesheet" href="mystyle.css" />
+    <title>Live Search</title>
+    <link rel="stylesheet" href="mystyle.css" />
 </head>
 <body>
-<div id="searcharea">
-	<label for="search">live search</label>
-	<p>Enter the name or info about a speaker</p>
-	<input type="search" name="search" id="search" placeholder="name or info" />
-</div>
-<div id="update"></div>
-<script src="jquery.js"></script>
-<script src="script.js"></script>
+
+    <div id="searcharea">
+        <label for="search">live search</label>
+        <p>Enter the name or info about a speaker</p>
+        <input type="search" name="search" id="search" placeholder="name or info" />
+    </div>
+    <div id="update">
+        <div id="loading-image" style="display:none;" >
+            <img src="ajax-loader.gif" />
+            <p>Retrieving TalentsRepository Cloud...</p>
+        </div>
+    </div>
+
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

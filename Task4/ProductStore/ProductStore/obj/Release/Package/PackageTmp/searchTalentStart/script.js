@@ -15,6 +15,7 @@ $('#search').keyup(function () {
     var myExp = new RegExp(searchField, "i");
 
 
+
    // $.getJSON(urlForJson, function (data) {
    //     var output = '<ul class="searchresults">';
    //     $.each(data, function (key, val) {
@@ -37,10 +38,12 @@ $('#search').keyup(function () {
    //     $('#update').html(output);
    // }); //get JSON
 
-    //Get From TalentsRepository instead of data.json
+
+
+    //Get From TalentsRepository in my Azure Cloud instead of data.json
     $.ajax({
         type: "GET",
-        url: "api/talents",
+        url: "https://productstoreweihan.azurewebsites.net/api/talents",
         beforeSend: function () {
 
             $("#loading-image").show();

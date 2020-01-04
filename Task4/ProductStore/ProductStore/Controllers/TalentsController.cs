@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using ProductStore.Models;
 using System.Web.Http.Cors;
+using Newtonsoft.Json;
 
 namespace ProductStore.Controllers
 {
@@ -21,14 +22,18 @@ namespace ProductStore.Controllers
         }
 
         [Route("api/talents/{id:int}")]
-        public Talent GetTalent(int id)
+        public HttpResponseMessage GetTalent(int id)
         {
             Talent item = repository.Get(id);
             if (item == null)
             {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
+                var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
+                errResponse.Content = new StringContent("No Talent Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
+                return errResponse;
             }
-            return item;
+            var response = Request.CreateResponse(HttpStatusCode.OK);
+            response.Content = new StringContent(JsonConvert.SerializeObject(item), System.Text.Encoding.UTF8, "application/json");
+            return response;
         }
     }
 }
