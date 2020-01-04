@@ -38,7 +38,10 @@
     <div class="row tags-container" style="display: none;">
         <div class="col-sm-12">
             <h1><span class="label label-primary">Tag</span></h1>
-            <p>It will take a while for the tags to load.</p>
+            <div id="loading-image" style="display:none;" >
+                <p>It will take a while for the tags to load.</p>
+                <img src="~/images/ajax-loader.gif" />
+            </div>
             <div class="well well-lg">
                 <div class="row ">
                     <div class="col-sm-12 tags">
@@ -93,7 +96,12 @@
                 processData: false,
                 data: form_data,
                 type: 'post',
+                beforeSend: function () {
+
+                    $("#loading-image").show();
+                },
                 success: function (data) {
+                    $("#loading-image").hide();
                     $tableBodyElement = $('#tagBody');
                     for (index = 0; index < data.taglist.length; index++) {
                         tag = data.taglist[index]
@@ -131,13 +139,17 @@
                     url: '/Api/Clarifai/GetTags',
                     dataType: 'json',
                     contentType: 'application/json',
-                    data: "'" + webFormDataInString + "'"
+                    data: "'" + webFormDataInString + "'",
+                    beforeSend: function () {
+                        $("#loading-image").show();
+                    }
                 });
 
                 var tag = '';
                 var confidence = '';
 
                 $loadTagsHandler.done(function (data, textStatus, jqXHR) {
+                    $("#loading-image").hide();
                     $tableBodyElement = $('#tagBody');
                     for (index = 0; index < data.taglist.length; index++) {
                         tag = data.taglist[index]

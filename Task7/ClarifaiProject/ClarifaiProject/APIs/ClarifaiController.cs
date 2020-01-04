@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Clarifai.API;
 using Clarifai.DTOs.Inputs;
+using ClarifaiProject.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -23,7 +24,7 @@ namespace ClarifaiProject.APIs
             var clarifaiInput = JsonConvert.DeserializeObject<dynamic>(value);
             var url = clarifaiInput.sendUrl.Value;
 
-            var client = new ClarifaiClient("9cbaffed9acc4817b1932de694d6722a");
+            var client = new ClarifaiClient(ClarifaiModel.APIKey);
 
             var res = client.PublicModels.GeneralModel
                .Predict(new ClarifaiURLImage(url))
