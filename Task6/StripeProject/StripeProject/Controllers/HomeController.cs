@@ -13,17 +13,8 @@ namespace StripeProject.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Success()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
 
@@ -44,7 +35,7 @@ namespace StripeProject.Controllers
             }
 
             var chargeId = await ProcessPayment(model);
-            return View("Index");
+            return View("Success");
         }
 
         private async Task<string> ProcessPayment(StripeChargeModel model)

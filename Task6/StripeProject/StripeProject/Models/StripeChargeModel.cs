@@ -1,13 +1,20 @@
 ﻿namespace StripeProject.Models
 {
+    using System;
     using System.ComponentModel.DataAnnotations;
 
     public class StripeChargeModel
     {
+        //API Testing Keys
+        //PKey = publishable key, SKey = secret key
+        public string PKey { get; } = "pk_test_0IVARsnHxPA0Q91KYIyZXBiX00Dr1xbS0y";
+        public static string SKey { get; } = "sk_test_dVjm658ONAh8pNkRvH2iHfWR00S7dGPJI0";
+
         [Required]
         public string Token { get; set; }
 
         [Required]
+        [Range(0.01, Double.PositiveInfinity)]
         public double Amount { get; set; }
         // These fields are optional and are not 
         // required for the creation of the token
