@@ -12,9 +12,13 @@
         <input type="search" name="search" id="search" placeholder="name or info" />
     </div>
     <div id="update">
-        <div id="loading-image" style="display:none;" >
+        <div id="loading-image" style="display:none;">
             <img src="ajax-loader.gif" />
             <p>Retrieving TalentsRepository Cloud...</p>
+        </div>
+        <div id="failmsg" style="display:none;">
+            <p>Failed to communicate to the web server. Reconnecting... (Please check your network connection and urlForJson in script.js)</p>
+            <p>Web Server: <span id="ws"></span></p>
         </div>
     </div>
 

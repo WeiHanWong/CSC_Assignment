@@ -8,6 +8,7 @@
     <div>
         <h2>All Products</h2>
         <img id="loading-image" src="ajax-loader.gif" style="display:none;" />
+        <b id="failmsg" style="display:none;">Fail to get products. Reloading... (Check your Uri in the project)</b>
         <ul id="products" />
     </div>
     <div>
@@ -23,54 +24,45 @@
 //http://localhost:9000/api/v1/products/ //http://csc123.azurewebsites.net/api/v1/products
 
 
-    $(document).ready(function () {
-      // Send an AJAX request
-      //$.getJSON(uri)
-      //    .done(function (data) {
-      //      // On success, 'data' contains a list of products.
-      //      $.each(data, function (key, item) {
-      //        // Add a list item for the product.
-      //        $('<li>', { text: formatItem(item) }).appendTo($('#products'));
-      //      });
-      //    });
-
-        //simulate latency
-        setTimeout(ajaxCall(), 2000);
-    });
-
-    function ajaxCall() {
-        $.ajax({
-            type: "GET",
-            url: uri,
-            beforeSend: function () {
-
-                $("#loading-image").show();
-            },
-            success: function (data) {
-
-                $.each(data, function (key, item) {
-                  $('<li>', { text: formatItem(item) }).appendTo($('#products'));
-                });
-
-                $("#loading-image").hide();
-            }
+        $(document).ready(function () {
+            $("#loading-image").show();
+            // Send an AJAX request
+            // Latency Simulation
+            setTimeout(function () {
+                $.getJSON(uri)
+                    .done(function (data) {
+                        $("#loading-image").hide();
+                        // On success, 'data' contains a list of products.
+                        $.each(data, function (key, item) {
+                            // Add a list item for the product.
+                            $('<li>', { text: formatItem(item) }).appendTo($('#products'));
+                        });
+                    })
+                    .fail(function (data) {
+                        $("#failmsg").show();
+                        setTimeout(function () {
+                            location.reload();
+                        }, 3000);
+                        
+                    });
+            }, 2000);
         });
-    }
 
-    function formatItem(item) {
-      return item.Name + ': $' + item.Price;
-    }
 
-    function find() {
-      var id = $('#prodId').val();
-      $.getJSON(uri + '/' + id)
-          .done(function (data) {
-            $('#product').text(formatItem(data));
-          })
-          .fail(function (jqXHR, textStatus, err) {
-            $('#product').text('Error: ' + err);
-          });
-    }
+        function formatItem(item) {
+          return item.Name + ': $' + item.Price;
+        }
+
+        function find() {
+          var id = $('#prodId').val();
+          $.getJSON(uri + '/' + id)
+              .done(function (data) {
+                $('#product').text(formatItem(data));
+              })
+              .fail(function (jqXHR, textStatus, err) {
+                $('#product').text('Error: ' + err);
+              });
+        }
     </script>
 </body>
 </html>

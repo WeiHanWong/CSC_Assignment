@@ -26,17 +26,24 @@ namespace ClarifaiProject.APIs
 
             var client = new ClarifaiClient(ClarifaiModel.APIKey);
 
-            var res = client.PublicModels.GeneralModel
-               .Predict(new ClarifaiURLImage(url))
-               .ExecuteAsync()
-               .Result;
-
-            foreach (var concept in res.Get().Data)
+            try
             {
-                tagList.Add($"{concept.Name}");
-                confidenceList.Add($"{concept.Value}");
-            }
+                var res = client.PublicModels.GeneralModel
+                   .Predict(new ClarifaiURLImage(url))
+                   .ExecuteAsync()
+                   .Result;
 
+                foreach (var concept in res.Get().Data)
+                {
+                    tagList.Add($"{concept.Name}");
+                    confidenceList.Add($"{concept.Value}");
+                }
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+            
             return Ok( new { 
                 taglist = tagList,
                 confidencelist = confidenceList
@@ -57,19 +64,26 @@ namespace ClarifaiProject.APIs
                     var fileBytes = ms.ToArray();
                     string s = Convert.ToBase64String(fileBytes);
 
-                    var client = new ClarifaiClient("9cbaffed9acc4817b1932de694d6722a");
+                    var client = new ClarifaiClient(ClarifaiModel.APIKey);
 
-                    var res = client.PublicModels.GeneralModel
+                    try
+                    {
+                        var res = client.PublicModels.GeneralModel
                        .Predict(new ClarifaiFileImage(fileBytes))
                        .ExecuteAsync()
                        .Result;
 
-                    foreach (var concept in res.Get().Data)
-                    {
-                        tagList.Add($"{concept.Name}");
-                        confidenceList.Add($"{concept.Value}");
+                        foreach (var concept in res.Get().Data)
+                        {
+                            tagList.Add($"{concept.Name}");
+                            confidenceList.Add($"{concept.Value}");
+                        }
                     }
-
+                    catch (Exception)
+                    {
+                        return BadRequest();
+                    }
+                    
                     return Ok(new
                     {
                         taglist = tagList,

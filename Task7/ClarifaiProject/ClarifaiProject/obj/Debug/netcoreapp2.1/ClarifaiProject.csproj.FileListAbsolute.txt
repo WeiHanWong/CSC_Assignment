@@ -5,7 +5,6 @@ C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiPro
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\bin\Debug\netcoreapp2.1\ClarifaiProject.runtimeconfig.json
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\bin\Debug\netcoreapp2.1\ClarifaiProject.runtimeconfig.dev.json
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\bin\Debug\netcoreapp2.1\ClarifaiProject.dll
-C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.csprojAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.RazorAssemblyInfo.cache
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.RazorAssemblyInfo.cs
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.AssemblyInfoInputs.cache

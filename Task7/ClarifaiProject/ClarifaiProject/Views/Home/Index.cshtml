@@ -38,8 +38,12 @@
     <div class="row tags-container" style="display: none;">
         <div class="col-sm-12">
             <h1><span class="label label-primary">Tag</span></h1>
-            <div id="loading-image" style="display:none;" >
+            <div id="loading-image" style="display:none;">
                 <p>It will take a while for the tags to load.</p>
+                <img src="~/images/ajax-loader.gif" />
+            </div>
+            <div id="failmsg" style="display:none;">
+                <p>Web Server has failed to establish a connection to Clarifai. Reconnecting... (Check your network and API key in ClarifaiModel)</p>
                 <img src="~/images/ajax-loader.gif" />
             </div>
             <div class="well well-lg">
@@ -70,55 +74,62 @@
         var targetImg = null;
 
         function readURL(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
 
-            reader.onload = function (e) {
-                targetImg = e.target.result
-            };
+                reader.onload = function (e) {
+                    targetImg = e.target.result
+                };
 
-            reader.readAsDataURL(input.files[0]);
+                reader.readAsDataURL(input.files[0]);
+            }
         }
-    }
 
         $('#uploadBtn').on('click', function () {
-            $(".tags-container").show()
-            $("#tagBody").empty();
-            $('#image').attr('src', targetImg);
-            var file_data = $('#pic').prop('files')[0];
-            var form_data = new FormData();
-            form_data.append('file', file_data);
-            $.ajax({
-                url: '/Api/Clarifai/GetTagsUpload',
-                dataType: 'json',
-                cache: false,
-                contentType: false,
-                processData: false,
-                data: form_data,
-                type: 'post',
-                beforeSend: function () {
-
-                    $("#loading-image").show();
-                },
-                success: function (data) {
-                    $("#loading-image").hide();
-                    $tableBodyElement = $('#tagBody');
-                    for (index = 0; index < data.taglist.length; index++) {
-                        tag = data.taglist[index]
-                        console.log(tag)
-                        confidence = data.confidencelist[index]
-                        $rowElement = $('<tr></tr>')
-                        $cellElement = $('<td></td>', { text: tag });
-                        $rowElement.append($cellElement);
-                        $cellElement = $('<td></td>', { text: confidence });
-                        $rowElement.append($cellElement);
-                        $tableBodyElement.append($rowElement);
-                    }
-                },
-                error: function (data) {
-                    console.log(data);
+            if ($("#pic").val().length > 0) {
+                $(".tags-container").show()
+                $("#tagBody").empty();
+                $('#image').attr('src', targetImg);
+                var file_data = $('#pic').prop('files')[0];
+                var form_data = new FormData();
+                form_data.append('file', file_data);
+                function apiCallimg() {
+                    $.ajax({
+                        url: '/Api/Clarifai/GetTagsUpload',
+                        dataType: 'json',
+                        cache: false,
+                        contentType: false,
+                        processData: false,
+                        data: form_data,
+                        type: 'post',
+                        beforeSend: function () {
+                            $("#failmsg").hide();
+                            $("#loading-image").show();
+                        },
+                        success: function (data) {
+                            $("#loading-image").hide();
+                            $tableBodyElement = $('#tagBody');
+                            for (index = 0; index < data.taglist.length; index++) {
+                                tag = data.taglist[index]
+                                console.log(tag)
+                                confidence = data.confidencelist[index]
+                                $rowElement = $('<tr></tr>')
+                                $cellElement = $('<td></td>', { text: tag });
+                                $rowElement.append($cellElement);
+                                $cellElement = $('<td></td>', { text: confidence });
+                                $rowElement.append($cellElement);
+                                $tableBodyElement.append($rowElement);
+                            }
+                        },
+                        error: function (data) {
+                            $("#loading-image").hide();
+                            $("#failmsg").show();
+                            setTimeout(apiCallimg, 3000);
+                        }
+                    });
                 }
-            });
+                apiCallimg();
+            }
         });
 
         $("#submitBtn").on("click", function () {
@@ -134,41 +145,47 @@
 
                 var webFormDataInString = JSON.stringify(webFormData);
 
-                var $loadTagsHandler = jQuery.ajax({
-                    type: 'POST',
-                    url: '/Api/Clarifai/GetTags',
-                    dataType: 'json',
-                    contentType: 'application/json',
-                    data: "'" + webFormDataInString + "'",
-                    beforeSend: function () {
-                        $("#loading-image").show();
-                    }
-                });
 
-                var tag = '';
-                var confidence = '';
+                function apiCallweb() {
+                    var $loadTagsHandler = jQuery.ajax({
+                        type: 'POST',
+                        url: '/Api/Clarifai/GetTags',
+                        dataType: 'json',
+                        contentType: 'application/json',
+                        data: "'" + webFormDataInString + "'",
+                        beforeSend: function () {
+                            $("#failmsg").hide();
+                            $("#loading-image").show();
+                        }
+                    });
 
-                $loadTagsHandler.done(function (data, textStatus, jqXHR) {
-                    $("#loading-image").hide();
-                    $tableBodyElement = $('#tagBody');
-                    for (index = 0; index < data.taglist.length; index++) {
-                        tag = data.taglist[index]
-                        console.log(tag)
-                        confidence = data.confidencelist[index]
-                        $rowElement = $('<tr></tr>')
-                        $cellElement = $('<td></td>', { text: tag });
-                        $rowElement.append($cellElement);
-                        $cellElement = $('<td></td>', { text: confidence });
-                        $rowElement.append($cellElement);
-                        $tableBodyElement.append($rowElement);
-                    }
-                });
+                    var tag = '';
+                    var confidence = '';
 
-                $loadTagsHandler.fail(function (data, textStatus, jqXHR) {
-                    console.log(textStatus);
-                    console.log(data);
-                    console.log(jqXHR);
-                });
+                    $loadTagsHandler.done(function (data, textStatus, jqXHR) {
+                        $("#loading-image").hide();
+                        $tableBodyElement = $('#tagBody');
+                        for (index = 0; index < data.taglist.length; index++) {
+                            tag = data.taglist[index]
+                            console.log(tag)
+                            confidence = data.confidencelist[index]
+                            $rowElement = $('<tr></tr>')
+                            $cellElement = $('<td></td>', { text: tag });
+                            $rowElement.append($cellElement);
+                            $cellElement = $('<td></td>', { text: confidence });
+                            $rowElement.append($cellElement);
+                            $tableBodyElement.append($rowElement);
+                        }
+                    });
+
+                    $loadTagsHandler.fail(function (data, textStatus, jqXHR) {
+                        $("#loading-image").hide();
+                        $("#failmsg").show();
+                        setTimeout(apiCallweb, 3000);
+                    });
+
+                }
+                apiCallweb();
             }
         })
     </script>
