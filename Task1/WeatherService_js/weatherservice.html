@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head http-equiv="Content-Type" content="text/xml; charset=iso-8859-1">
+</head>
+<body>
+    <img src="ajax-loader.gif" id="loading-image" style="display:none;"/>
+    <div>
+        <div id="conSuccess" style="display:none;">
+            <h1>API established connection. </h1>
+            <h2>re-Displaying formatted version... Please wait.</h2>
+            <img src="ajax-loader.gif"/>
+            
+        </div>
+        <div id="popup" style="display:none;">
+            <b>Please disable pop-up block if formatted xml does not show.</b>
+        </div>
+        <h4 id="xml-head" style="display:none;">Unformatted XML:</h4>
+        <xml id="xmlString"></xml>
+    </div>
+    <div id="conFail" style="display:none;">
+        <div>
+            <h1>API connection failed. </h1>
+            <h2>Reconnecting in 5s...</h2>
+            <img src="ajax-loader.gif"/>
+        </div>
+        <div>
+            <p>Please check the following: </p>
+            <ul>
+                <li>
+                    Network connection 
+                </li>
+                <li>
+                    API key 
+                </li>
+                <li>
+                    Country selected
+                </li>
+                <li>
+                    Number of days selected
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>

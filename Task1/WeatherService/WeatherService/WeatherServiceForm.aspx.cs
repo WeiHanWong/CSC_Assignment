@@ -32,6 +32,8 @@ namespace WeatherService
 
             //Make a HTTP request to the global weather web service
             wsResponseXmlDoc = MakeRequest(url.ToString());
+                
+
             if (wsResponseXmlDoc != null)
             {
                 //display the XML response for user
@@ -45,18 +47,23 @@ namespace WeatherService
                 wsResponseXmlDoc.Save(writer);
 
                 writer.Close();
+                Response.End();
             }
             else
             {
                 Response.ContentType = "text/html";
-                Response.Write("<h2> error  accessing web service </h2>");
-                Response.Write("<p>Please check if your API key is incorrect: " + key + "</p>");
-                Response.Write("<p>Please check if your country spelled incorrectly: " + country + "</p>");
-                Response.Write("<p>Please check if your number of days is in integer form: " + numOfDays + "</p>");
-                Response.Write("<b>Rectify and re-run the project</b>");
-                Response.End();
+                Response.Write("<h1>Error accessing web service</h1>");
+                Response.Write("<h2>Reconnecting in 5s...</h2>");
+                Response.Write("<img src='ajax-loader.gif'/>");
+                Response.Write("<p>Please check the following: </p>");
+                Response.Write("<ul><li>Network connection</li><li>API key : "+ key + "</li><li>Country selected : " + country + "</li><li>Number of days selected : " + numOfDays + "</li></ul>");
+                Response.Write("<script language='javascript'>setTimeout(function(){location.reload();}, 5000);</script>");
             }
+        }
 
+        protected void ButtonReload(object sender, EventArgs e)
+        {
+            
         }
 
         public static XmlDocument MakeRequest(string requestUrl)
