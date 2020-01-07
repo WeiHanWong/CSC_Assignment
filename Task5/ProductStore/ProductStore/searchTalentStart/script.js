@@ -3,7 +3,7 @@ $('#search').keyup(function () {
     var urlForJson = "data.json";
 
     //get data from Restful web Service in development environment
-    var urlForJson = "/api/talets";
+    var urlForJson = "/api/talents";
 
     //get data from Restful web Service in production environment
     //var urlForJson= "http://csc123.azurewebsites.net/api/talents";
