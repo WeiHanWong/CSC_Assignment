@@ -54,7 +54,7 @@ namespace StripeProject.Controllers
                     }
                 };
 
-                var chargeService = new StripeChargeService("sk_test_dVjm658ONAh8pNkRvH2iHfWR00S7dGPJI0");
+                var chargeService = new StripeChargeService(StripeChargeModel.SKey);
                 var stripeCharge = chargeService.Create(myCharge);
 
                 return stripeCharge.Id;
