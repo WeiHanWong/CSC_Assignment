@@ -1,0 +1,1 @@
+var myApiKey = '9cbaffed9acc4817b1932de694d6722a';

@@ -1,72 +1,125 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Clarifai JavaScript Stater</title>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="keys.js"></script>
+  <script type="text/javascript" src="clarifai-latest.js"></script>
+  <script>
+  try {
+    var app = new Clarifai.App({
+     apiKey: myApiKey
+    });
+  }
+  catch(err) {
+    alert("Need a valid API Key!");
+    throw "Invalid API Key";
+  }
+  
+  // Checks for valid image type
+  function validFile(imageName) {
+        var lowerImageName = imageName.toLowerCase();
+        return lowerImageName.search(/jpg|png|bmp|tiff/gi) != -1;
+  }
+  </script>
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+  <style type="text/css">
+    body { margin-left:20px; margin-top:20px; margin-bottom:30px; font-family: sans-serif; height:100%}
+  </style>
 </head>
 <body>
-    <div class="container app">
+    <div id="Title" style="font-size:48px; margin-bottom:20px;">&nbsp;ClarifaiProject</div>
+    
+    <div class="col-sm-6"> 
         <div class="row inputForm">
             <div class="col-sm-12">
                 <h1>Submit Web image</h1>
                 <form id="dataForm" name="dataForm" role="form" >
                     <div class="form-group">
-                        <input class="form-control" type="text" id="imageUrl" name="imageUrl" value="https://samples.clarifai.com/metro-north.jpg" />
+                        <input class="form-control" type="text" id="imgurl" placeholder="Image URL" size="80" value="https://samples.clarifai.com/metro-north.jpg"/>
                     </div>
                     <div class="form-group">
-                        <input id="submitBtn" type="button" class="btn btn-primary" value="Submit" />
+                        <input type="button" class="btn btn-primary" value="Submit" onclick="
+                            if(imgurl.value == '') { 
+                                alert('Please enter an image URL!'); 
+                                return;
+                            } 
+                            
+                            else if (!validFile(imgurl.value)) {
+                                alert('Supported File Types: JPEG, PNG, TIFF, BMP');
+                                return;
+                            }
+                            
+                            predict_click($('#imgurl').val(), 'url');" style="width:112px"/>
                     </div>
                 </form>
+                    
                 <br/>
                 <br/>
+
                 <h1>Submit Local image</h1>
                 <form id="dataForm1" name="dataForm1" role="form" enctype="multipart/form-data">
                     <div class="form-group file-upload-wrapper" data-height="500">
                         <p>Drag and Drop your Image</p>
-                        <input class="form-control file-upload" type="file" id="pic" name="pic" accept="image/*" onchange="readURL(this);" data-height="500" style="height:100px">
+                        <input class="form-control file-upload" type="file" id="filename" placeholder="Filename" accept="image/*" data-height="500" style="height:100px">
                     </div>
                     <div class="form-group">
-                        <input id="uploadBtn" type="button" class="btn btn-primary" value="Upload" />
+                        <input type="button" class="btn btn-primary" value="Upload" onclick="
+                            if(filename.value == '') { 
+                                alert('Please browse for a file!'); 
+                                return;
+                            } 
+                            
+                            else if (!validFile(filename.value)) {
+                                alert('Supported File Types: JPEG, PNG, TIFF, BMP');
+                                return;
+                            }
+                            predict_click($('#filename').val(), 'file');"/>
                     </div>
                 </form>
             </div>
-        </div>
-        <div class="row imagePreview">
-            <div class="col-sm-12">
-                <h2>Image preview</h2>
-                <img class="img-responsive" id="image" src="" alt="">
-            </div>
-        </div>
-    
-        <div class="row tags-container" style="display: none;">
-            <div class="col-sm-12">
-                <h1><span class="label label-primary">Tag</span></h1>
-                <div id="loading-image" style="display:none;">
-                    <p>It will take a while for the tags to load.</p>
-                    <img src="ajax-loader.gif" />
+            <div class="row col-sm-12" >
+                <div class="col-sm-8">
+                    <div class="imagePreview">
+                        <h2>Image preview</h2>
+                        <div style="margin-top:30px; margin-left:20px; margin-bottom:30px; clear:left; float:left" >
+                            <img class="img-responsive" id="img_preview" src="" alt="" width="100%">
+                        </div>
+                    </div>
                 </div>
-                <div id="failmsg" style="display:none;">
-                    <p>Web Server has failed to establish a connection to Clarifai. Reconnecting... (Check your network and API key in ClarifaiModel)</p>
-                    <img src="ajax-loader.gif" />
-                </div>
-                <div class="well well-lg">
-                    <div class="row ">
-                        <div class="col-sm-12 tags">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>Tag</th>
-                                        <th>Confidence</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="tagBody"></tbody>
-                            </table>
+                <div class="col-sm-4" style="float: right;">
+                    <div class="tags-container" style="display: none;">
+                        <h2><span class="label label-primary">Tag</span></h2>
+                        <div id="loading-image" style="display:none;">
+                            <p>It will take a while for the tags to load.</p>
+                            <img src="ajax-loader.gif" />
+                        </div>
+                        <div id="failmsg" style="display:none;">
+                            <p>Web Server has failed to establish a connection to Clarifai. Reconnecting... (Check your network and API key in keys.js)</p>
+                            <img src="ajax-loader.gif" />
+                        </div>
+                        <div class="well well-lg">
+                            <div class="row ">
+                                <div class="col-sm-12 tags">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Tag</th>
+                                                <th>Confidence</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tagBody"></tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="jquery-3.4.1.min.js"></script>
-    <script src="clarifai-latest.js"></script>
     <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
 </body>
+</html>

@@ -28,3 +28,4 @@ C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiPro
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.dll
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.pdb
 C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\CSC_Assignment\Task7\ClarifaiProject\ClarifaiProject\obj\Debug\netcoreapp2.1\ClarifaiProject.csprojAssemblyReference.cache
