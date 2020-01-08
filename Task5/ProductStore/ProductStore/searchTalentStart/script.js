@@ -1,12 +1,12 @@
 $('#search').keyup(function () {
     //get data from json file
-    var urlForJson = "data.json";
+    //var urlForJson = "data.json";
 
     //get data from Restful web Service in development environment
     var urlForJson = "/api/talents";
 
     //get data from Restful web Service in production environment
-    //var urlForJson= "http://csc123.azurewebsites.net/api/talents";
+    //var urlForJson = "https://productstoreweihan.azurewebsites.net/api/talents";
 
     //Url for the Cloud image hosting
     var urlForCloudImage = "https://res.cloudinary.com/dued3lcpt/image/upload/v1575898585/";
@@ -14,11 +14,15 @@ $('#search').keyup(function () {
     var searchField = $('#search').val();
     var myExp = new RegExp(searchField, "i");
 
-
-
     $("#loading-image").show();
     function callData() {
-        $.getJSON(urlForJson, function (data) {
+        $.ajax({
+            type: "GET",
+            url: urlForJson,
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("Authorization", 'Bearer ' + window.localStorage.getItem("access_token"));
+            }
+        }).done(function (data) {
             var output = '<ul class="searchresults">';
             $.each(data, function (key, val) {
                 //for debug
@@ -40,11 +44,21 @@ $('#search').keyup(function () {
             $('#update').html(output);
             $("#loading-image").hide();
             $("#failmsg").hide();
-        }).fail(function () {
+        }).fail(function (data) {
             $("#failmsg").show();
             $("#ws").text(urlForJson);
+            if (data.status) {
+                $("#fmsg").text("Unauthorized. Returning to Login...")
+                setTimeout(function () { window.location.replace("login.html"); }, 3000)
+            }
             setTimeout(callData, 3000)
-        }); //get JSON
+        });
     }
     callData();
+});
+
+$('#logout').on('click', function () {
+    window.localStorage.setItem("access_token", "");
+    $("#logoutStat").text("Log Out Successful")
+    setTimeout(function () { window.location.replace("login.html"); }, 1500)
 });

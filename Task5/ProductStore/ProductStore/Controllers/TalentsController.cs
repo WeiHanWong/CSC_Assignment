@@ -5,16 +5,18 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using ProductStore.Models;
-using System.Web.Http.Cors;
 using Newtonsoft.Json;
+using System.Web.Http.Cors;
 
 namespace ProductStore.Controllers
 {
+    [Authorize]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TalentsController : ApiController
     {
         static readonly TalentRepository repository = new TalentRepository();
 
-        [EnableCors(origins: "*", headers: "*", methods: "*")]
+        
         [Route("api/talents")]
         public IEnumerable<Talent> GetAllTalents()
         {

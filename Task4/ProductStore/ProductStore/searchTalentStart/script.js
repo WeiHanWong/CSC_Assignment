@@ -6,7 +6,7 @@ $('#search').keyup(function () {
     //var urlForJson = "http://localhost:9000/api/talents";
 
     //get data from Restful web Service in production environment
-    var urlForJson = "https://productstoreweihan.azurewebsites.net/ap/talents";
+    var urlForJson = "https://productstoreweihan.azurewebsites.net/api/talents";
 
     //Url for the Cloud image hosting
     var urlForCloudImage = "https://res.cloudinary.com/dued3lcpt/image/upload/v1575898585/";

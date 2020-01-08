@@ -5,11 +5,12 @@
     <link rel="stylesheet" href="mystyle.css" />
 </head>
 <body>
-
+    <input type="button" id="logout" value="Log out"/>
+    <p id="logoutStat"></p>
     <div id="searcharea">
         <label for="search">live search</label>
         <p>Enter the name or info about a speaker</p>
-        <input type="search" name="search" id="search" placeholder="name or info" />
+        <input type="search" name="search" id="search" placeholder="name or info"/>
     </div>
     <div id="update">
         <div id="loading-image" style="display:none;">
@@ -17,12 +18,12 @@
             <p>Retrieving TalentsRepository Cloud...</p>
         </div>
         <div id="failmsg" style="display:none;">
-            <p>Failed to establish API connection. Reconnecting... (Please check your network connection and urlForJson in script.js)</p>
+            <p id="fmsg">Failed to communicate to the web server. Reconnecting... (Please check your network connection and urlForJson in script.js)</p>
             <p>API Call: <span id="ws"></span></p>
         </div>
     </div>
 
-    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
@@ -20,7 +23,7 @@ namespace ProductStore
 
                 UriBuilder uriBuilder = new UriBuilder(actionContext.Request.RequestUri);
                 uriBuilder.Scheme = Uri.UriSchemeHttps;
-                uriBuilder.Port = 44357;
+                uriBuilder.Port = 44398;
 
                 actionContext.Response.Headers.Location = uriBuilder.Uri;
             }
