@@ -26,8 +26,6 @@ namespace WebAPI2.Controllers
             };
 
             //code for version 1
-
-
             [HttpGet]
             [Route("api/v1/products/version")]
             //http://localhost:9000/api/v1/products/version

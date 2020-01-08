@@ -28,10 +28,13 @@ namespace WebAPI2.Controllers
             Product item = repository.Get(id);
             if (item == null)
             {
+                //Reponse text when product is not found
                 var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
                 errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
                 return errResponse;
             }
+
+            //Reponse json
             var response = Request.CreateResponse(HttpStatusCode.OK);
             response.Content = new StringContent(JsonConvert.SerializeObject(item), System.Text.Encoding.UTF8, "application/json");
             return response;
@@ -64,14 +67,14 @@ namespace WebAPI2.Controllers
             product.Id = id;
             if (!repository.Update(product))
             {
+                //Reponse text when product is not found
                 var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
                 errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
                 return errResponse;
             }
 
-            //Demo Purpose
+            //Reponse json of newly created product
             var response = Request.CreateResponse<Product>(HttpStatusCode.OK, product);
-
             string uri = Url.Link("getProductById", new { id = id });
             response.Headers.Location = new Uri(uri);
             return response;
@@ -84,12 +87,15 @@ namespace WebAPI2.Controllers
             Product item = repository.Get(id);
             if (item == null)
             {
+                //Reponse text when product is not found
                 var errResponse = Request.CreateResponse(HttpStatusCode.BadRequest);
                 errResponse.Content = new StringContent("No Product Id Found: " + id, System.Text.Encoding.UTF8, "text/plain");
                 return errResponse;
             }
+
             repository.Remove(id);
-            //Demo Purpose
+
+            //Response json of current data in the repository
             var response = Request.CreateResponse(HttpStatusCode.OK);
             response.Content = new StringContent(JsonConvert.SerializeObject(repository.GetAll()), System.Text.Encoding.UTF8, "application/json");
             return response;

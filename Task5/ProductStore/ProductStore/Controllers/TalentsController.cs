@@ -10,7 +10,7 @@ using System.Web.Http.Cors;
 
 namespace ProductStore.Controllers
 {
-    [Authorize]
+    [Authorize] //Secure Talents API with Authentication
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TalentsController : ApiController
     {

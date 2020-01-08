@@ -14,12 +14,15 @@ $('#search').keyup(function () {
     var searchField = $('#search').val();
     var myExp = new RegExp(searchField, "i");
 
+    //get talents data
     $("#loading-image").show();
     function callData() {
         $.ajax({
             type: "GET",
             url: urlForJson,
             beforeSend: function (xhr) {
+
+                //set token
                 xhr.setRequestHeader("Authorization", 'Bearer ' + window.localStorage.getItem("access_token"));
             }
         }).done(function (data) {
@@ -47,10 +50,14 @@ $('#search').keyup(function () {
         }).fail(function (data) {
             $("#failmsg").show();
             $("#ws").text(urlForJson);
-            if (data.status) {
+
+            //if unauthorized return to login
+            if (data.status == 401) {
                 $("#fmsg").text("Unauthorized. Returning to Login...")
                 setTimeout(function () { window.location.replace("login.html"); }, 3000)
             }
+
+            //retry getting talents data
             setTimeout(callData, 3000)
         });
     }
@@ -58,7 +65,8 @@ $('#search').keyup(function () {
 });
 
 $('#logout').on('click', function () {
-    window.localStorage.setItem("access_token", "");
+    //remove token from localstorage and redirect on log out
+    window.localStorage.removeItem("access_token");
     $("#logoutStat").text("Log Out Successful")
     setTimeout(function () { window.location.replace("login.html"); }, 1500)
 });

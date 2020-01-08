@@ -14,7 +14,6 @@ $('#search').keyup(function () {
     var searchField = $('#search').val();
     var myExp = new RegExp(searchField, "i");
 
-
     $("#loading-image").show();
     function callData() {
         $.getJSON(urlForJson, function (data) {
@@ -42,6 +41,8 @@ $('#search').keyup(function () {
         }).fail(function () {
             $("#failmsg").show();
             $("#ws").text(urlForJson);
+
+            //Retry calling from web server
             setTimeout(callData, 3000)
         }); //get JSON
     }

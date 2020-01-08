@@ -1,16 +1,15 @@
-﻿function WebFormDataRegister(inEmail, inPassword, inConfirmPassword) {
-    this.Email = inEmail;
-    this.Password = inPassword;
-    this.ConfirmPassword = inConfirmPassword;
-}
+﻿//functions for login.html
 
 $('#Reg').on('click', function () {
+    //Create json object
     var regObj = {
         "Email": $("#email").val(),
         "Password": $("#pwd").val(),
         "ConfirmPassword": $("#cpwd").val()
     }
     var sendData = JSON.stringify(regObj)
+
+    //Register
     function RegAPI() {
         $.ajax({
             url: '/api/Account/Register',
@@ -33,6 +32,8 @@ $('#Reg').on('click', function () {
                 $("#loading-image").hide();
                 $("#errBody").show();
                 $("#status").text("Registration Fail");
+
+                //Show model validation errors when fail
                 try {
                     var state = data.responseJSON.ModelState
 
@@ -51,7 +52,10 @@ $('#Reg').on('click', function () {
 });
 
 $('#Logi').on('click', function () {
+    //Plain text for retrieving token
     var logObj = "username=" + $("#emaillog").val() + "&password=" + $("#pwdlog").val() + "&grant_type=password"
+
+    //Retrieve token
     function LogAPI() {
         $.ajax({
             url: '/token',
@@ -66,16 +70,21 @@ $('#Logi').on('click', function () {
                 $("#status").text("");
             },
             success: function (data) {
+
+                //Set token in localStorage (sessionStorage can also be use)
                 window.localStorage.setItem("access_token", data["access_token"])
                 $("#status").text("Login Success");
+
+                //Redirect to talent search
                 setTimeout(function () { window.location.replace("index.html");},2000)
-                
             },
             error: function (data) {
                 console.log(data)
                 $("#loading-image").hide();
                 $("#errBody").show();
                 $("#status").text("Login Fail");
+
+                //Show error description when fail
                 try {
                     var state = data.responseJSON.error_description
 

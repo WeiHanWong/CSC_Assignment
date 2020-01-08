@@ -125,11 +125,11 @@
 
             $('#btnCharge').on('click', function (e) {
 
-                $("#loading-image").show();
-
+                $("#loading-image").show()
                 e.preventDefault();
                 e.stopPropagation();
 
+                //Validate card and get token from STRIPE
                 Stripe.card.createToken({
                     number: $('#txtCardNumber').val(),
                     cvc: $('#txtCvc').val(),

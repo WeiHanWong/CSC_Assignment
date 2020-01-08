@@ -16,16 +16,14 @@ namespace WeatherService
         {
             XmlDocument wsResponseXmlDoc = new XmlDocument();
 
-            //http://api.worldweatheronline.com/premium/v1/weather.ashx?key=****&q=London&format=xml&num_of_days=5
-
             //Assign values for query
             var country = "china";
             var numOfDays = "5";
             var key = "cc0e4957de9e41d4a3d71549190912";
 
+            //Uri builder for Request 
             UriBuilder url = new UriBuilder();
             url.Scheme = "http";
-
             url.Host = "api.worldweatheronline.com";
             url.Path = "premium/v1/weather.ashx";
             url.Query = "q="+ country + "&format=xml&num_of_days="+ numOfDays + "&key=" + key;
@@ -46,11 +44,13 @@ namespace WeatherService
                 writer.Formatting = Formatting.Indented;
                 wsResponseXmlDoc.Save(writer);
 
+                //End Response
                 writer.Close();
                 Response.End();
             }
-            else
+            else 
             {
+                //Inform user connction has failed and initiate page refresh every 5s
                 Response.ContentType = "text/html";
                 Response.Write("<h1>Error accessing web service</h1>");
                 Response.Write("<h2>Reconnecting in 5s...</h2>");
@@ -61,13 +61,9 @@ namespace WeatherService
             }
         }
 
-        protected void ButtonReload(object sender, EventArgs e)
-        {
-            
-        }
-
         public static XmlDocument MakeRequest(string requestUrl)
         {
+            //Request Response
             try
             {
                 HttpWebRequest request = WebRequest.Create(requestUrl) as HttpWebRequest;

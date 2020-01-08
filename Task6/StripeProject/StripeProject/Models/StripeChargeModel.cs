@@ -10,6 +10,9 @@
         public string PKey { get; } = "pk_test_0IVARsnHxPA0Q91KYIyZXBiX00Dr1xbS0y";
         public static string SKey { get; } = "sk_test_dVjm658ONAh8pNkRvH2iHfWR00S7dGPJI0";
 
+        //save charge id for current transaction
+        public string ChargedId { get; set; }
+
         [Required]
         public string Token { get; set; }
 

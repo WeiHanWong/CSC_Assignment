@@ -13,9 +13,9 @@ namespace StripeProject.Controllers
             return View();
         }
 
-        public ActionResult Success()
+        public ActionResult Success(StripeChargeModel model)
         {
-            return View();
+            return View(model);
         }
 
         public ActionResult Charge()
@@ -34,8 +34,12 @@ namespace StripeProject.Controllers
                 return View(model);
             }
 
+            //Stripe Charge Service
             var chargeId = await ProcessPayment(model);
-            return View("Success");
+
+            model.ChargedId = chargeId;
+
+            return RedirectToAction("Success", model);
         }
 
         private async Task<string> ProcessPayment(StripeChargeModel model)

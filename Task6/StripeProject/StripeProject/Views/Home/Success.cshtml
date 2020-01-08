@@ -1,16 +1,23 @@
-﻿@{
+﻿@model StripeProject.Models.StripeChargeModel
+
+@{
     ViewBag.Title = "Success Charge";
 }
-@*@{ Response.Redirect("Charge");}*@
+
+@* Successful Charge Prompt *@
+
 <div>
-    <h1>Charge Successful! Redirecting back to Stripe Charge Example page...</h1>
-    <img id="loading-image" src="~/ajax-loader.gif" />
+    <h1>Charge Successful!</h1>
+    <p>Charge Id: <span>@Html.Raw(Model.ChargedId)</span></p>
+    <input type="button" class="btn btn-primary" value="Back to Stripe Charge Example" id="back"/>
 </div>
 
 @section Scripts {
     <script type="text/javascript">
-        $('document').ready(function() {
-            window.setTimeout(function () { window.location.href = 'Home/Charge' }, 4000);
+
+        //return to charge page
+        $('#back').on('click', function () {
+            window.location.href = 'Charge'
         });
     </script>
 }

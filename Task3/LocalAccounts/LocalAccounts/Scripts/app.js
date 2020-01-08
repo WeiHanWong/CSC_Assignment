@@ -1,4 +1,6 @@
-﻿function ViewModel() {
+﻿//Loading icon has been added for each ajax call
+
+function ViewModel() {
     var self = this;
 
     var tokenKey = 'accessToken';
@@ -15,6 +17,7 @@
     self.errors = ko.observableArray([]);
 
     function showError(jqXHR) {
+        $('#loading-img').hide()
 
         self.result(jqXHR.status + ': ' + jqXHR.statusText);
 
@@ -47,12 +50,13 @@
         if (token) {
             headers.Authorization = 'Bearer ' + token;
         }
-
+        $('#loading-img').show()
         $.ajax({
             type: 'GET',
             url: '/api/values',
             headers: headers
         }).done(function (data) {
+            $('#loading-img').hide()
             self.result(data);
         }).fail(showError);
     }
@@ -66,7 +70,7 @@
             Password: self.registerPassword(),
             ConfirmPassword: self.registerPassword2()
         };
-
+        $('#loading-img').show()
         $.ajax({
             type: 'POST',
             url: '/api/Account/Register',
@@ -74,6 +78,7 @@
             data: JSON.stringify(data)
         }).done(function (data) {
             self.result("Done!");
+            $('#loading-img').hide()
         }).fail(showError);
     }
 
@@ -86,7 +91,7 @@
             username: self.loginEmail(),
             password: self.loginPassword()
         };
-
+        $('#loading-img').show()
         $.ajax({
             type: 'POST',
             url: '/Token',
@@ -95,6 +100,7 @@
             self.user(data.userName);
             // Cache the access token in session storage.
             sessionStorage.setItem(tokenKey, data.access_token);
+            $('#loading-img').hide()
         }).fail(showError);
     }
 
@@ -105,7 +111,7 @@
         if (token) {
             headers.Authorization = 'Bearer ' + token;
         }
-
+        $('#loading-img').show()
         $.ajax({
             type: 'POST',
             url: '/api/Account/Logout',
@@ -114,6 +120,7 @@
             // Successfully logged out. Delete the token.
             self.user('');
             sessionStorage.removeItem(tokenKey);
+            $('#loading-img').hide()
         }).fail(showError);
     }
 }
